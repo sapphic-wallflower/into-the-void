@@ -24,8 +24,4 @@ The achievements in this game are a mess. Sometimes, they simply don't work. I t
 
 ## Media Gallery
 
-![PortalAchievementMenu.mp4](https://raw.githubusercontent.com/sapphic-wallflower/into-the-void/gh-pages/VideoGames/Steam/Assets/PortalAchievementMenu.mp4)
-
-![PortalAchievementMenu.mp4](./Assets/PortalAchievementMenu.mp4)
-
-![PortalAchievementMenu.mp4](VideoGames/Steam/Assets/PortalAchievementMenu.mp4)e
+![](./Assets/PortalAchievementMenu.gif)
