@@ -20,7 +20,8 @@ A collective list of all the music I have, or plan to get. I may or may not give
 
 - [ ] Homepage banner
 - [ ] Subgroup banners
-- [ ] Buy a custom domain to replace the GitHub link
+- [ ] Buy a custom domain to replace the GitHub link.
+- [ ] Consider using a dedicated CSS and switch to HTML. 
 
 ## Contact
 Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.
