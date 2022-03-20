@@ -4,7 +4,7 @@
 Thank you for taking the time to check out my website. I don't expect anyone to find this, it'll mostly serve as a way for me to link things to friends instead of screenshotting my notes. 
 
 ## Groups
-- [Video Games](/into-the-void/VideoGames/videogame-index.md) - [Backloggery](https://www.backloggery.com/QueenRaven29)
+- [Video Games](./VideoGames/videogame-index.md) - [Backloggery](https://www.backloggery.com/QueenRaven29)
     
 An expanded look into my thoughts on the video games I've beaten or completed. Feel free to follow me on Backloggery!
 
