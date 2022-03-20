@@ -9,6 +9,7 @@
     - Date: 2022-03-05
 - Achievements: 15/15
 - Rating: 4/10
+- [Backloggery](https://www.backloggery.com/update.php?user=queenraven29&gameid=23835608)
 
 ## Summary
 I don't have much to say about this game. It's certainly a video game? It was a very short and middling experience.
