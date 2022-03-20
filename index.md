@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Void's Archive
 
-You can use the [editor on GitHub](https://github.com/sapphic-wallflower/into-the-void/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## About
+Thank you for taking the time to check out my website. Below, you'll find links to the different subgroups. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Groups
+- Video Games | [Backloggery](https://www.backloggery.com/QueenRaven29)
+    - An expanded look into my thoughts on the video games I've beaten or completed. Feel free to follow me on Backloggery!
+- Watched Media
+    - My current show, movie, and anime backlog. Items I've watched or plan to watch and some minor thoughts on them. 
+- Music | [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
+    - A collective list of all the music I have, or plan to get. I may or may not give my thoughts on some artists or albums. 
 
-### Markdown
+## To-Do List
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [ ] Homepage banner
+- [ ] Subgroup banners
+- [ ] Buy a custom domain to replace the GitHub link
 
-```markdown
-Syntax highlighted code block
+## Contact
+Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sapphic-wallflower/into-the-void/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Twitter](https://twitter.com/jamieofthevoid) | [Steam](https://steamcommunity.com/id/queenofthevoid/) | [Backloggery](https://www.backloggery.com/QueenRaven29) | [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
