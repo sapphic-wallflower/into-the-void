@@ -29,4 +29,4 @@ The achievements in this game are a mess. Sometimes, they simply don't work. I t
 ![](./Assets/PortalAchievementMenu.gif)
 
 * * *
-# Return to: [Homepage](/index.md) - [Platform List](/VideoGames/videogame-index.md) - [Steam List](/VideoGames/Steam/steam-index.md)
+# Return to: [Homepage](/into-the-void/index.md) - [Platform List](/into-the-void/VideoGames/videogame-index.md) - [Steam List](/into-the-void/VideoGames/Steam/steam-index.md)
