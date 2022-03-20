@@ -4,7 +4,7 @@
 Thank you for taking the time to check out my website. Below, you'll find links to the different subgroups. 
 
 ## Groups
-- [Video Games](./Video%20Games/videogame-index.md) - [Backloggery](https://www.backloggery.com/QueenRaven29)
+- [Video Games](./VideoGames/videogame-index.md) - [Backloggery](https://www.backloggery.com/QueenRaven29)
     
 An expanded look into my thoughts on the video games I've beaten or completed. Feel free to follow me on Backloggery!
 
