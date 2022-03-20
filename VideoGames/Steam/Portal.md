@@ -14,6 +14,7 @@
 I don't have much to say about this game. It's certainly a video game? It was a very short and middling experience.
 
 ## Gameplay
+
 It's a puzzle game through and through. Without playing Portal 2, it feels like this is a very long tutorial for that game. You can tell there's some charm there, but it doesn't hit that much.
 
 ## Difficulty
@@ -24,8 +25,4 @@ The achievements in this game are a mess. Sometimes, they simply don't work. I t
 
 ## Media Gallery
 
-![PortalAchievementMenu.mp4](https://raw.githubusercontent.com/sapphic-wallflower/into-the-void/gh-pages/VideoGames/Steam/Assets/PortalAchievementMenu.mp4)
-
-![PortalAchievementMenu.mp4](./Assets/PortalAchievementMenu.mp4)
-
-![PortalAchievementMenu.mp4](VideoGames/Steam/Assets/PortalAchievementMenu.mp4)e
+https://user-images.githubusercontent.com/70827619/159189113-f2142b83-8b0a-4636-882c-1412cef1243f.mp4
