@@ -30,4 +30,4 @@ A collective list of all the music I have, or plan to get. I may or may not give
 ## Contact
 Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.
 
-[Twitter](https://twitter.com/jamieofthevoid) - [Steam](https://steamcommunity.com/id/queenofthevoid/) - [Backloggery](https://www.backloggery.com/QueenRaven29) - [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
+## [Twitter](https://twitter.com/jamieofthevoid) - [Steam](https://steamcommunity.com/id/queenofthevoid/) - [Backloggery](https://www.backloggery.com/QueenRaven29) - [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
