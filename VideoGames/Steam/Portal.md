@@ -1,6 +1,4 @@
-# Portal
-
-![PortalSteamMenu.png](./Assets/PortalSteamMenu.png)
+# ![Portal](./Assets/PortalSteamMenu.png)
 
 ## General Information
 - Platform: Steam
