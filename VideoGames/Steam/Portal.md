@@ -1,4 +1,6 @@
-# ![Portal](./Assets/PortalSteamMenu.png)
+<title>Page Title</title>
+
+![Portal](./Assets/PortalSteamMenu.png)
 
 ## General Information
 - Platform: Steam
