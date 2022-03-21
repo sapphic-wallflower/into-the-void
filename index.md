@@ -8,7 +8,7 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
     
 An expanded look into my thoughts on the video games I've beaten or completed. Feel free to follow me on Backloggery!
 
-- Watched Media
+- [Watched Media](./Media/media-index)
     
 My current show, movie, and anime backlog. Items I've watched or plan to watch and some minor thoughts on them. 
 
