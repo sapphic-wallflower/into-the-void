@@ -7,9 +7,12 @@
 ## About
 Thank you for taking the time to check out my website. I don't expect anyone to find this, it'll mostly serve as a way for me to link things to friends instead of screenshotting my notes. It'll also be an extention of my [Backloggery](https://www.backloggery.com/QueenRaven29), since I'm limited in how much I can type there. 
 
-## Groups: 
+## Groups
 - [All Platforms](./VideoGames/videogame-index)
 - [Steam](/into-the-void/VideoGames/Steam/steam-index)
+
+<br></br>
+<br></br>
 
 ## To-Do List
 
