@@ -11,9 +11,6 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 - [All Platforms](./VideoGames/videogame-index)
 - [Steam](/into-the-void/VideoGames/Steam/steam-index)
 
-<br></br>
-<br></br>
-
 ## To-Do List
 
 - [ ] Homepage banner
