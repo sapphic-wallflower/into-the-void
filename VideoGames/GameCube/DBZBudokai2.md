@@ -30,4 +30,4 @@ This was one of the handful of childhood games I put on my backlog to really see
 
 ## Media Gallery
 
-## Return to: [Homepage](/into-the-void/index) - [Platform List](/into-the-void/VideoGames/videogame-index) - [GameCube List](/into-the-void/VideoGames/Steam/gamecube-index)
+## Return to: [Homepage](/into-the-void/index) - [Platform List](/into-the-void/VideoGames/videogame-index) - [GameCube List](/into-the-void/VideoGames/GameCube/gamecube-index)
