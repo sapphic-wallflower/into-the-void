@@ -9,7 +9,7 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 
 ## Groups
 - [All Platforms](./VideoGames/videogame-index)
-- [GameCube](/into-the-void/VoidGames/GameCube/gamecube-index)
+- [GameCube](/into-the-void/VideoGames/GameCube/gamecube-index)
 - [Steam](/into-the-void/VideoGames/Steam/steam-index)
 
 ## To-Do List
