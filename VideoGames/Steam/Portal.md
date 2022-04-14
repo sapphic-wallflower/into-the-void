@@ -6,6 +6,7 @@
 - Platform: Steam
 - Ownership: Owned
 - Played Time: 6 hours (to complete)
+    - Time to beat: 1 hour, 51 minutes.
     - Date: 2022-03-05
 - Achievements: 15/15
 - Rating: 4/10

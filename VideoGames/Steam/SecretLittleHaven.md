@@ -7,6 +7,7 @@
 - Platform: Steam
 - Ownership: Owned
 - Played Time: 10.6 hours (to complete)
+    - Time to beat: 2 hours, 31 minutes.
     - Date: 2022-04-11
 - Achievements: 7/7
 - Rating: 10/10
@@ -34,13 +35,19 @@ A cute little cheat menu I found on a hidden page. There's more to it, but I tho
 
 ![](./Assets/SLHCheats.png)
 
+***
+
 There's a program in the game that lets you make a doll. This was the first one I made even after many playthroughs.
 
-![](./Assets/SLHDoll.png) 
+![](./Assets/SLHDoll.png)
+
+***
 
 Inside joke I made between my girlfriends in the in-game reminders app.
 
 ![](./Assets/SLHReminders.png)
+
+***
 
 She'll figure it out.
 
