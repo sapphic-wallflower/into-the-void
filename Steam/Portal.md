@@ -30,4 +30,4 @@ The achievements in this game are a mess. Sometimes, they simply don't work. I t
 ![](./Assets/PortalAchievementMenu.gif)
 
 * * *
-## Return to: [Homepage](/into-the-void/index) - [Steam List](/Steam/steam-index)
+## Return to: [Homepage](/index) - [Steam List](/Steam/steam-index)
