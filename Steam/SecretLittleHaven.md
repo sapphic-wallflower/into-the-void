@@ -49,8 +49,6 @@ Inside joke I made between my girlfriends in the in-game reminders app.
 
 ***
 
-She'll figure it out.
-
 ![](./Assets/SLHFigureItOut.png)
 
 * * *
