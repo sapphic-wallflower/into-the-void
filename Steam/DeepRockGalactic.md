@@ -10,6 +10,7 @@
 	- Date: 2022-02-02
 - Achievements: 69/69
 - Rating: 10/10
+- [Backloggery](https://www.backloggery.com/games.php?user=QueenRaven29&search=Deep+Rock+Galactic)
 
 ## Summary
 This game has easily become my favorite online multiplayer game of all time. It's extremely fun, no matter what you end up doing. If you want to play alone, with friends, or with a bunch of random people. The dynamics between all the settings, levels, weapons, and weapon modifiers make every drop unique and fun to play.
