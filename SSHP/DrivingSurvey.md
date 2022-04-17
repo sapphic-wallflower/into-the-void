@@ -4,7 +4,7 @@
 |1997|Driver License|n/a|Fine|
 |1998|Drivers License|n/a|Cars are useful, but they cause them anxiety|
 |2001|Drivers License|n/a|They hate them, they give them anxiety, not sure how to drive in big cities|
-|2000|Will attempt to get one soon.|I failed my test the first time.|They're scary, and one mistake can cause 1000's in damages, and cause potential loss of life.|
+|2000|Will attempt to get one soon.|Failed test the first time.|They're scary, and one mistake can cause 1000's in damages, and cause potential loss of life.|
 |1996|No|Dislikes the concept of learning how to drive.|Anxious about the idea of humans having control of machines that can end lives by any small mistake.|
 |2003|Drivers License|n/a|Enjoys driving, it's a very social experience, good vibes.|
 |1993|Drivers License|n/a|Mostly a utilitarian experience, enjoys it sometimes.|
@@ -16,7 +16,7 @@
 |2000|Learners Permit|Saving money for other things, little time to practice.|Scary, and distrusts others on the road.|
 |1997|Drivers License|n/a|Fun|
 |1986|No|No need for one currently, life choices have dictated they need one.|n/a|
-|1996|Drivers License||n/a|They enjoy it, they think it's relaxing.|
+|1996|Drivers License|n/a|They enjoy it, they think it's relaxing.|
 |1997|Will attempt to get one soon.|It makes them anxious.|n/a|
 |1998|Drivers & Motorcycle License|n/a|Cars are mostly utilitarian, while motorcycles are where the fun is.|
 |1993|Will attempt to get one soon.|Working on getting one slowly.|Nervous about highways due to a distrust in others.|
