@@ -21,6 +21,7 @@ The purpose of the pseduo-survey was to see if I could find an age group where p
 | 1997 | Drivers License | n/a | Fun |
 | 1997 | Driver License | n/a | Fine |
 | 1997 | Driver License | n/a | Fine |
+| 1997 | Learners Permit | Avoids driving due to anxiety and PTSD | n/a |
 | 1998 | Drivers Permit | n/a | Immense stress, small mistakes could result in loss of life, extremely distressing. |
 | 1998 | Drivers License | n/a | Doesn't mind driving, but tends to avoid it. Doesn't like driving anyone else's car. Long distances are exhausting. |
 | 1998 | Drivers License | n/a | Cars are useful, but they cause them anxiety |
@@ -39,3 +40,4 @@ The purpose of the pseduo-survey was to see if I could find an age group where p
 | 2002 | Drivers License | n/a | Kind of stressful, but it would suck to not be able to drive. |
 | 2003 | Drivers License | n/a | They like it. |
 | 2003 | Drivers License | n/a | Enjoys driving, it's a very social experience, good vibes. |
+| 2004 | No. | Anxiety from messing up, due to a lack of knowledge | n/a |
