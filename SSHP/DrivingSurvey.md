@@ -34,3 +34,4 @@
 | 2002 | Drivers License | n/a | Kind of stressful, but it would suck to not be able to drive. |
 | 2003 | Drivers License | n/a | They like it. |
 | 2003 | Drivers License | n/a | Enjoys driving, it's a very social experience, good vibes. |
+| 2001 | No | Anxiety | n/a |
