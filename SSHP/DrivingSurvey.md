@@ -1,3 +1,7 @@
+# Driving Survey - 2022-04-17
+
+The purpose of the pseduo-survey was to see if I could find an age group where people became more and more afraid of cars. The more people I met, and the older I got, I started to notice a trend. Younger generations of poeple are become increasingly more afraid of cars. I wasn't aiming to figure out why this shift happened, just the age range in which it did. 
+
 | Birth Year | Drivers License Ownership | Reason For Not Having One | How They Feel |
 |---|---|---|---|
 | 1986 | No | No need for one currently, life choices have dictated they need one. | n/a |
