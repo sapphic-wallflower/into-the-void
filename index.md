@@ -9,7 +9,7 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 
 ## Groups
 - [GameCube](/GameCube/gamecube-index)
-- [Linux] (/Linux/linux-index)
+- [Linux](/Linux/linux-index)
 - [Steam](/Steam/steam-index)
 
 ## To-Do List
