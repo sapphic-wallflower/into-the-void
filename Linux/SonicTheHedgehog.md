@@ -5,7 +5,7 @@
 ## General Information
 
 - Platform: Linux
-	- Originally: iOS (Taxman remake)
+	- Originally: iOS (Taxman&Stealth remake)
 - Ownership: Owned
 - Played Time: 8 hours, 43 minutes.
 	- Time to beat: 2 hours, 21 minutes.
@@ -15,9 +15,9 @@
 - [Backloggery](https://www.backloggery.com/games.php?user=QueenRaven29&search=Sonic+the+Hedgehog)
 
 ## Summary
-To explain the platform, this was the Taxman remake. I originally bought this on iOS, but I played it on Linux with the [decompilation](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation) for Sonic 1, 2, and CD. 
+To explain the platform, this was the Taxman&Stealth remake. I originally bought this on iOS, but I played it on Linux with the [decompilation](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation) for Sonic 1, 2, and CD. 
 
-The game is a bit rough to come back and play, but it's certainly more fun than some other retro games. I had a good time playing this. You get to play as all the characters in the Taxman version, which is the only real way to play the game as of writing this. 
+The game is a bit rough to come back and play, but it's certainly more fun than some other retro games. I had a good time playing this. You get to play as all the characters in the Taxman&Stealth version, which is the only real way to play the game as of writing this. 
 
 ## Gameplay
 It's classic Sonic, except for having the spin dash in this version. It doesn't do much, so I avoided using it. The level design is unique, it's what you'd expect from a classic Sonic game. You have your multi-level gameplay loop, with the top, middle, and bottom levels. Top being easier, but harder to platform, bottom being more enemy dense, middle being a mix of the two. 
