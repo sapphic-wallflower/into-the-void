@@ -22,6 +22,8 @@ The game is a bit rough to come back and play, but it's certainly more fun than 
 ## Gameplay
 It's classic Sonic, except for having the spin dash in this version. It doesn't do much, so I avoided using it. The level design is unique, it's what you'd expect from a classic Sonic game. You have your multi-level gameplay loop, with the top, middle, and bottom levels. Top being easier, but harder to platform, bottom being more enemy dense, middle being a mix of the two. 
 
+Ordinarily, I'd have a section here that describes how each level played out, but if I'm being honest, they weren't particularly memorable. The music in this game transcendence the levels. I know the music better than the levels assigned to them, and I hardly listen to video game music. I'm not positive why the levels are so forgettable, but I have no thoughts on them. The same can be said for each character I had to play as. It feels like you could swap out any mascot here, and it would be the same game.
+
 ## Difficulty
 It can be straight up unfair at times. The way the levels are designed can be painfully obvious they were trying to extend how long it takes to beat this very short game. That's how old games were designed, so how much fault can be attributed here? While unfair, and sometimes frustrating, it maintained its level of being a "frustratingly fun" experience. There are moments that can challenge your ability as a platform player, even up to today's standards.
 
