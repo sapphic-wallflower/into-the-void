@@ -12,10 +12,6 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 - [Linux](/Linux/linux-index)
 - [Steam](/Steam/steam-index)
 
-## Friends of Void's Archive
-
-No one yet. :(
-
 ## To-Do List
 
 - [x] Homepage banner
