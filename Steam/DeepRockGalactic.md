@@ -5,7 +5,7 @@
 ## General Information
 - Platform: Steam
 - Ownership: Owned
-- Played Time: 389 hours (to complete), 500 hours (overall, and counting!)
+- Played Time: 389 hours (to complete), 615 hours (overall, and counting!)
 	- Time to beat: n/a
 	- Date: 2022-02-02
 - Achievements: 69/69

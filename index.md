@@ -12,14 +12,22 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 - [Linux](/Linux/linux-index)
 - [Steam](/Steam/steam-index)
 
+## Friends of Void's Archive
+
+No one yet. :(
+
 ## To-Do List
 
-- [ ] Homepage banner
-- [ ] Subgroup banners
+- [x] Homepage banner
+- Subgroup banners
+     - [ ] GameCube
+     - [ ] Linux
+     - [ ] Steam
 - [x] Buy a custom domain to replace the GitHub link.
 - [ ] Consider using a dedicated CSS and switch to HTML. 
 
 ## Contact
 Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.
 
+***
 ## [Twitter](https://twitter.com/jamieofthevoid) - [Steam](https://steamcommunity.com/id/queenofthevoid/) - [Backloggery](https://www.backloggery.com/QueenRaven29) - [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
