@@ -12,6 +12,10 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 - [Linux](/Linux/linux-index)
 - [Steam](/Steam/steam-index)
 
+## Friends of the Void
+
+[![OliverSpin](https://files.catbox.moe/0cabsg.gif)](https://steelviper77.neocities.org/)
+
 ## To-Do List
 
 - [x] Homepage banner
