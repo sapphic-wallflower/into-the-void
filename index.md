@@ -14,7 +14,8 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 
 ## Friends of the Void
 
-[![OliverSpin](https://files.catbox.moe/se3kxa.gif)](https://steelviper77.neocities.org/)
+[![OliverSpin](https://files.catbox.moe/se3kxa.gif)](https://steelviper77.neocities.org/) 
+[![Princess](https://files.catbox.moe/88k8vy.png)](https://chloes-secret-hideout.neocities.org/)
 
 ## To-Do List
 
