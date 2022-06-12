@@ -30,5 +30,9 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 ## Contact
 Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.
 
+Want to become friends? Add me to your site! 
+
+![Friends of the Void](./SSHP/webring-button.gif)
+
 ***
 ## [Twitter](https://twitter.com/jamieofthevoid) - [Steam](https://steamcommunity.com/id/queenofthevoid/) - [Backloggery](https://www.backloggery.com/QueenRaven29) - [Rate Your Music](https://rateyourmusic.com/~voidgazer_jamie)
