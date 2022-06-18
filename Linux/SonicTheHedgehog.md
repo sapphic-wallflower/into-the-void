@@ -6,7 +6,7 @@
 
 - Platform: Linux
 	- Originally: iOS (Taxman&Stealth remake)
-- Ownership: Owned
+- Ownership: Owned on iOS
 - Played Time: 8 hours, 43 minutes.
 	- Time to beat: 2 hours, 21 minutes.
 	- Date: 2021-11-22
