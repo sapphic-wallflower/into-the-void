@@ -26,30 +26,30 @@ Delving into the combat aspect of the game, there's a lot more to say. The four 
 What good are weapons without maps to play them on? Every map that you load will be different. Some mission types have templates, meaning that some might look the same, but they'll always play out differently. With modifiers on maps, random generations/seeds, machine events, and the plethora of weapons you get, you could get lost in this game for thousands of hours.
 
 <details>
-<summary>Would you like to know more?</summary>
-
+<summary><b>Would you like to know more?</b></summary>
+<br></br>
 <h3><b>Space Rig</b></h3>
 The space rig is home to everything you do outside of the combat portion of the game. You can choose your mission, view your dailies, pick your assignment, customize your weapon's loadout, buy and dress your dwarf with cosmetics, and view the mineral market. There's also a bar, where you can buy a brew that'll give you a silly effect, or even buff your character going into the next mission. Those buffs can be anything from making your pickaxe stronger, to carrying heavy objects, to increasing your health. Aside from that, there's mini-games you can do as well, which are tied to a couple of achievements. 
-
+<br></br>
 <h3><b>Assignments</b></h3>
 During your first 100 levels in the game, you'll get consistent assignments to unlock cosmetics and new weapons. After a while, you'll stop getting new assignments for those, and you'll only get two for your weeklies, and then every time you need to promote your character. There isn't much to say about them. I haven't really seen any of the early ones for a long time now, but they're a great tool for easing a new player into the weapons.
-
+<br></br>
 <h3><b>Weekly Challenges</b></h3>
 Every week, you'll get access to assignments that'll give you blank matrix cores to unlock overclocks. There's also deep dive, and an elite deep dive. They're essentially three missions back to back that carry Nitra from the last match onto the next. Each drop increases the difficulty, so you'll need to preserve your Nitra as best you can, so you don't run out when things get tough. The normal deep dive is quite easy. It's mostly a time sink once you get better at the game. The elite deep dive poses the most challenging task in the game, and you have to do it weekly. The other two weeklies are assignments that give you some cores, and materials. I assume these are for people who don't have time to commit to the deep dives, but want to get some bonuses each week too.
-
+<br></br>
 <h3><b>Classes</b></h3>
 All the characters in the game have an important role to play, that only they can accomplish. Some people will say that “X class is underpowered”, and “Y class is overpowered”, but after playing them all for an equal amount of time, I found myself saying “Wow, I really wish I was playing WXYZ class”. They're extremely well-balanced, and when you find that right character for you, it'll feel like they can do anything. It's a fun bit of exploration, and I encourage you to play every class. Don't get stuck in the one-trick pony camp until you've got a ton of hours under your belt.
-
+<br></br>
 <h3><b>Weapons</b></h3>
 I have the same opinion about weapons. Everyone can get really opinionated about what's best, what isn't great, etc. but all the weapons in the game can fill a very specific role or just feel fun for you to play with. Even at the highest level of play, there isn't a weapon that can't deal with whatever the game throws at you, especially with the right weapon overclock. An overclock is a modifier to your weapon you can unlock doing various things. They can completely change how the gun feels, what it does, or just give a simple upgrade to the ammo count and damage. There are so many overclocks to find and experiment with. They aren't all created equal, but there aren't any that'll just make the weapon unusable. Again, don't get stuck in a mindset of “This is what I will use forever, I will never use anything else”. Please experiment with weapons and the overclocks that go with them. You'll have such a better time playing the game.
-
+<br></br>
 <h3><b>The Map</b></h3>
 This is where you'll be able to see all the available missions. There are eight zones, but only five are available. They rotate every 30 minutes. From here, you can see what type of mission it is, what modifiers they have, and how long & complex they'll be. The game clearly tells you how complex and how long missions are going to be, as well as any modifications to the enemies or bonuses to the world. It can be a nice mix-up in the already ever-changing world of Hoxxes. I won't spoil all the modifiers here because they're fun to explore and learn about on your own, but there's enough to keep the game interesting indefinitely.
-
+<br></br>
 <h3><b>Events</b></h3>
 Once you've dropped into these maps, there's a chance that you'll get some type of bonus events. Those blank cores that you've been getting from the weeklies can be cashed in after completing these events. You put a key into the matrix infuser, and it'll activate the event. There are a few different types, so keep an eye out as you play. Aside from those, there's also rare enemy spawns, such as the bulk detonator, and the prospector. In the future, there will be even more events, but at the time of writing this, those are the majority that you'll find. You'll always want to do these, as they give bonus loot, bonus experience, and even weapon modifications in the form of overclocks.
 </details>
-<b></b>
+<br></br>
 
 ## Difficulty
 
