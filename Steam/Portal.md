@@ -16,7 +16,6 @@
 I don't have much to say about this game. It's certainly a video game? It was a very short and middling experience.
 
 ## Gameplay
-
 It's a puzzle game through and through. Without playing Portal 2, it feels like this is a very long tutorial for that game. You can tell there's some charm there, but it doesn't hit that much.
 
 ## Difficulty

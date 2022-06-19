@@ -17,7 +17,8 @@
 This was one of the handful of childhood games I put on my backlog to really see to the end, based on how much of a good time I had with them when I was younger. There are tons of ups and downs when it comes to this game. Although I haven't played a lot of fighting games, this is one of the few games I've played that has a unique feeling single player story. Other than that, the longer I played this game, and the longer I went for full completion, the more and more I disliked it. 
 
 ## Gameplay
-- Dragon World: To me, this is the main way to play the game. It's formatted in a board game style, where you can move your piece around the board and attack others. You can also find buffs, capsules, and money above and underground. In my opinion, playing through this once or twice is the best way to experience this game, it's fun to discover where things are and how you combine your teammates to make your character as strong as possible. 
+### **Dragon World** 
+To me, this is the main way to play the game. It's formatted in a board game style, where you can move your piece around the board and attack others. You can also find buffs, capsules, and money above and underground. In my opinion, playing through this once or twice is the best way to experience this game, it's fun to discover where things are and how you combine your teammates to make your character as strong as possible. 
 
 ### **Dueling/Training**
 You most likely won't play these much if you're coming to the game now. They're for playing against your friends, computers, or just practicing against stationary targets. They're pretty useless because the AI for these feel like a beta version of what the game truly plays like. 
