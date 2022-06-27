@@ -55,7 +55,6 @@ This is where you'll be able to see all the available missions. There are eight 
 <h3><b>Events</b></h3>
 Once you've dropped into these maps, there's a chance that you'll get some type of bonus events. Those blank cores that you've been getting from the weeklies can be cashed in after completing these events. You put a key into the matrix infuser, and it'll activate the event. There are a few different types, so keep an eye out as you play. Aside from those, there's also rare enemy spawns, such as the bulk detonator, and the prospector. In the future, there will be even more events, but at the time of writing this, those are the majority that you'll find. You'll always want to do these, as they give bonus loot, bonus experience, and even weapon modifications in the form of overclocks.
 </details>
-<br>
 
 ## Difficulty
 

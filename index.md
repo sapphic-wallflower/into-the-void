@@ -15,17 +15,7 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 ## Friends of the Void
 
 [![OliverSpin](https://files.catbox.moe/se3kxa.gif)](https://steelviper77.neocities.org/) 
-[![Princess](https://files.catbox.moe/he8oc0.gif)](https://chloes-secret-hideout.neocities.org/)
-
-## To-Do List
-
-- [x] Homepage banner
-- Subgroup banners
-     - [ ] GameCube
-     - [ ] Linux
-     - [ ] Steam
-- [x] Buy a custom domain to replace the GitHub link.
-- [ ] Consider using a dedicated CSS and switch to HTML. 
+[![Princess](https://files.catbox.moe/he8oc0.gif)](https://chloes-secret-hideout.neocities.org/) 
 
 ## Contact
 Do you want to get in touch with me? Send me a message on [Twitter](https://twitter.com/jamieofthevoid), and we can figure out where to go from there.

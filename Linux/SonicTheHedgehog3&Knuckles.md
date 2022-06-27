@@ -6,9 +6,9 @@
 	- Originally: Sega Genesis
 - Ownership: Owned on [Steam](https://store.steampowered.com/app/34270).
 - Played Time: 
-	- Time to beat: 6 hours.
-	- Date: 
-- Achievements: 10/18
+	- Time to beat: 6 hours, 24 minutes.
+	- Date: 2022-06-25
+- Achievements: 11/18
 - Rating: 
 - [Backloggery](https://www.backloggery.com/games.php?user=QueenRaven29&search=Sonic+the+Hedgehog+3+%26+Knuckles)
 
@@ -43,11 +43,21 @@ This level is cute. It has a cute atmosphere, cute enemies, cute backgrounds; ev
 ### **Flying Battery Zone**
 I forgot everything about this level. It came and went so fast, that I almost don't remember what it looks like. If I didn't play this level more than once, I'd have forgotten it was in the line-up. That doesn't mean the level is bad, it's just an inoffensive level. It doesn't have anything memorable, but it doesn't feel like padding at the same time.
 
-### **Sandopolis Zone** 
+### **Sandopolis Zone**
+This is the first level I rage quit on while playing. In fact, it made me take a week break from my first playthrough. The first act was okay, but the second act was confusing for me to navigate. There's mini-puzzle where you have to jump across sand streams, but I kept getting stuck in an endless loop. After I came back and played it again after my week break, I beat it on my first try with no real problems. I wonder what I did differently? 
+
 ### **Lava Reef Zone**
+It was a cute zone that had amazing flow. I came and went through this level faster than any other level in the & Knuckles portion of Sonic 3. For the first time, I feel like getting hit, or running fast into something felt like it was my fault. Not some cheap trick to make you lose all your rings under the guise of "play it again, you'll do better on your second play through. The theme was cool, and the two bosses were cool. Although, the first boss died so fast because of the fire shield I had, I didn't get to see what it's attacks were.
+
 ### **Hidden Palace Zone**
+I wasn't aware this was going to be such a short level. The only thing you do is collect some coins, then beat up Knuckles. I must say, the fight with Knuckles was pathetic. Knuckles had been a pest through the entire game, and this is the final boss fight, followed by you two just being friends? Meh.
+
 ### **Sky Sanctuary Zone**
+I LOVE this level. You revist bosses from past games in the form of Metal Sonic coming to attack you. Levels like this get a bad rap, but the music was great, the level design was great, and all of the bosses translated well from the prior games. I felt a bit of happiness playing this level, it's one I could go back to and play multiple times.
+
 ### **Death Egg Zone**
+Brutally difficult level, designed to drain all your lives before the final boss. It was extremely punishing, much more punishing than any level before it. After you finish the level, you're met with four phases of a single boss, back to back to back. If you die once, you lose all your rings and are forced to go on a no-hit run. When I did this boss for the first time, it knocked out all of the 8 continues I had saved up, and my 12 lives I had left after the level. Some of my deaths left my with my mouth wide open, and made me feel like I never played a video game before. 
+
 ### **Special Stages (Sonic 3)** 
 They are fun. They're quite simple, but the complexity ramps up towards the later emeralds. Still, you should be able to do these without missing any.
 
@@ -57,6 +67,8 @@ I don't understand, some of these are insanely hard, some of them are just walk 
 ## Difficulty
 ### **Sonic & Tails**
 ### **Sonic**
+Pretty standard. You aren't going to reach any of the special things that you need to have/be Tails to get, but out of sight, out of mind, right? 
+
 ### **Tails**
 ### **Knuckle**
 ### **Knuckes & Tails**
