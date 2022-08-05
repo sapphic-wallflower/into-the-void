@@ -1,6 +1,7 @@
 # Super Secret Hidden Page
 
-How did you get here? Well, since you're here, here's all the projects I've worked on that don't relate to the topic of the website.
+You know, you really aren't supposed to be on this page. You aren't some super hacker for removing some text from a URL. 
+Well, since you're here, these are all the side projects I've been working on that I use this website for. I like to keep the main site on topic. 
 
 ## On-the-fly Surveys
 - [Driving Survey](/SSHP/DrivingSurvey)
