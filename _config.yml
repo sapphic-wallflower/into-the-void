@@ -1,6 +1,4 @@
 remote_theme: pages-themes/hacker
-exclude:
-- SSHP/kinklist.md
 title: Void's Archive
 author:
   name: 
