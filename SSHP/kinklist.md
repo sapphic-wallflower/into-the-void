@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Kinktest</title>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<link rel=icon type=image/x-icon href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMjEvMTV5ehY1AAAAZElEQVQ4jaWTwQ3AIAwDbcT+I9f9hjYQA/mAkO7igKAACWdFAF0A2gb0hP0uCyTATyAJSoaK5xGyEmTC9lktmORUdAQvBQ5cJshktoDk0HkmKRNUEmuE6ztYVXe7bT+jW7z9zi8qYiodCjCHKgAAAABJRU5ErkJggg==">
+<style>body{font-family:Verdana,Arial;font-size:12px;background-color:#000;color:#fff}h2{padding:0;margin:0;margin-top:10px;margin-bottom:5px;font-size:18px}table{border-collapse:collapse;margin-bottom:10px;width:100%}th{border:solid #999 1px;border-right:0;margin:0;padding:0;background-color:#666}th.choicesCol{box-sizing:border-box;width:145px}th:last-child{border-right:solid #999 1px}td{border-left:solid #999 1px;border-bottom:solid #999 1px;border-right:solid #999 1px;margin:0;padding:4px;padding-right:2px}td+td{border-left-style:none}.choice{box-sizing:border-box;width:17px;height:17px;opacity:.3;overflow:hidden;text-indent:100px;border:solid #000 1px;border-radius:100%;outline-style:none!important;vertical-align:middle;display:inline-block;cursor:pointer;font-size:0;padding:0}.choices .choice{transition:all .3s ease-in-out}.choice+.choice{margin-left:0}.choices .choice:hover{opacity:.75}.choice.selected,.selected>.choice{opacity:1;border-width:2px}.legend{vertical-align:middle;font-size:14px;color:#fff}.legend div{display:inline-block}.legend .choice{opacity:1;cursor:default}.legend-text{vertical-align:middle}#ExportWrapper{width:460px;height:36px}#URL{display:none;position:absolute;top:3px;box-sizing:border-box;width:300px;height:30px;border-radius:4px;border:solid #ccc 1px;font-size:16px;padding:10px;text-align:center;color:#666;font-weight:700}#Export{position:absolute;left:310px;box-sizing:border-box;color:#fff;text-transform:uppercase;background-color:#4980ae;font-size:18px;width:150px;height:36px;border-style:none;border-radius:4px;cursor:pointer;transition:all .3s ease-in-out}#Export:hover{opacity:.85}#Loading{display:none;overflow:visible;line-height:26px;font-size:16px;color:#999;font-weight:700;position:absolute;top:4px;left:220px}#Loading:before{content:'';position:absolute;box-sizing:border-box;width:26px;height:26px;border-radius:50%;border:solid #999 2px;border-top-color:transparent;border-left-color:#ccc;border-right-color:#666;animation:spin .5s infinite linear;margin-left:-40px}@media(min-width:1700px){.legend{position:absolute;top:7px;left:160px}.legend div{width:130px}#ExportWrapper{position:absolute;top:-3px;right:46px}h1{margin-bottom:0}}@media(max-width:1700px) and (min-width:800px){.legend div{width:130px;padding-bottom:10px}#ExportWrapper{position:absolute;top:-3px;right:46px}}@media(max-width:800px) and (min-width:598px){.legend div{width:180px;padding-bottom:10px;padding-left:10px}#ExportWrapper{position:relative;margin-top:10px;margin-left:5px}#URL{left:155px;width:190px;font-size:10px}#Export{left:0}#Loading{left:230px}}@media(max-width:597px){body{font-size:10px}table{min-width:345px}.legend div{width:150px;padding-bottom:10px;padding-left:10px}#ExportWrapper{position:relative;margin-top:10px;margin-left:0;width:345px}#URL{left:155px;width:190px;font-size:10px}#Export{left:0}#Loading{left:230px}}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(-360deg)}}#ExportWrapper :last-child:after{content:'';display:block;clear:both}.col{float:left;box-sizing:border-box;margin:0;padding:5px}.col.col25{width:25%}.col.col33{width:33.33333%}.col.col50{width:50%}.col.col100{width:100%;padding:0}.widthWrapper{max-width:1700px;margin-left:auto;margin-right:auto;position:relative}#Edit{width:18px;height:18px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMTIvMTUsb8MLAAABaElEQVQ4jZWUvY3jMBCF390mzpQ6I1wBS5A6oDuQOxi4Ap4rUAlqwR1M7IhQBYRCR1To7G1giJBkes/7gElGg4/zK7AgVaWI0FpLAIwxlsJWwtbRdR0BrKzruvw9pUTnHEMIP4NCCC8gay2991TVnGVVVSvYCyil9AJ6Z0sY5nJCCEwp5Rc/NefcE6Sqb4OMMRQRigiNMcWSU0pPkIgUIW3b5gmqKkmybdtVzOwnSZRKMcaQJOu6zr66rklylZn3PoO+7vf7P2x0Op2w2+1wuVyybxxHNE0DALjdbgCAaZrweDyw3+/xN8aIvu9hrd3y/qthGHA+n3E4HJDH773/dWnLpmfQdnqfNHs2EeEfkpymCU3TYBiGVerGGByPRwDA9XrFOI7FElX1WZpz7ldLOO9PCCHfIeb7qqrqY9C8hEvlHi1h1lqqKr33xZPZXv4KNMOcc6sX+77/8bdSBJUUY8xZisjqLJb6Bpjss/W5PAkOAAAAAElFTkSuQmCC);background-repeat:no-repeat;float:left;border-style:none;outline-style:none!important;margin-top:6px;margin-right:4px;opacity:.5;cursor:pointer}#Edit:hover{opacity:1}.overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:none}#EditOverlay #Kinks{box-sizing:border-box;position:absolute;top:10px;bottom:50px;width:330px;left:50%;margin-left:-165px;resize:none;padding:10px;border-radius:5px;font-family:monospace,'Courier new',Courier}#EditOverlay #KinksOK{box-sizing:border-box;position:absolute;bottom:10px;width:330px;height:30px;left:50%;margin-left:-165px;color:#fff;text-transform:uppercase;background-color:#4980ae;font-size:18px;border-style:none;border-radius:5px;cursor:pointer}#InputOverlay{text-align:center;white-space:nowrap}#InputOverlay:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em}#InputOverlay .widthWrapper{display:inline-block;vertical-align:middle;width:400px;text-align:left;max-width:100%}#InputOverlay .widthWrapper #InputCurrent,#InputOverlay .widthWrapper .kink-simple{display:block;box-sizing:border-box;padding:10px;background-color:#eee}#InputOverlay .widthWrapper .kink-simple{position:relative;height:40px;line-height:20px;cursor:pointer}#InputOverlay .widthWrapper .kink-simple .choice{margin-right:5px}#InputOverlay .widthWrapper .kink-simple .txt-category{position:absolute;right:5px;top:5px;text-transform:uppercase;font-size:90%;font-weight:700;opacity:.6;line-height:1em}#InputOverlay .widthWrapper .kink-simple .txt-field,#InputOverlay .widthWrapper .kink-simple .txt-kink{vertical-align:middle}#InputOverlay .widthWrapper .kink-simple .txt-field:empty{display:none}#InputOverlay .widthWrapper .kink-simple .txt-field:before{content:'('}#InputOverlay .widthWrapper .kink-simple .txt-field:after{content:') '}#InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(3),#InputOverlay .widthWrapper #InputPrevious .kink-simple:first-child{background-color:#000;font-size:10px;margin-left:12px;margin-right:12px;height:33px}#InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(2),#InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(2){background-color:#111;font-size:11px;margin-left:6px;margin-right:6px;height:37px}#InputOverlay .widthWrapper #InputNext .kink-simple:first-child,#InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(3){background-color:#222;margin-left:3px;margin-right:3px}#InputOverlay .widthWrapper #InputPrevious .kink-simple:first-child{padding-bottom:4px;padding-top:7px}#InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(3){padding-top:4px}#InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(2){padding-bottom:7px;padding-top:9px}#InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(2){padding-top:7px}#InputPrevious .kink-simple{border-top-left-radius:2px;border-top-right-radius:2px}#InputNext .kink-simple{border-bottom-left-radius:2px;border-bottom-right-radius:2px}#InputOverlay .widthWrapper #InputCurrent{position:relative;background-color:#000}#InputOverlay .widthWrapper #InputCurrent .closePopup{position:absolute;top:0;right:5px;border-style:none;background-color:transparent;font-size:30px;cursor:pointer;outline-style:none!important;opacity:.65}#InputOverlay .widthWrapper #InputCurrent .closePopup:hover{opacity:1}#InputOverlay .widthWrapper #InputCurrent h2{text-transform:uppercase;opacity:.6;margin:0}#InputOverlay .widthWrapper #InputCurrent h3{margin-top:3px;margin-bottom:0;font-size:14px}#InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice{padding:10px;background-color:rgba(128,128,128,.75);border-radius:4px;margin-top:5px;cursor:pointer}#InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice.selected{font-weight:700}#InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice.selected .choice{opacity:1}#InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice:hover{padding:8px;border:solid #999 2px;background-color:#fff}#InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice .btn-num-text{float:right;display:inline-block;border:solid #ccc 1px;text-align:center;width:16px;border-radius:3px}#StartBtn{position:absolute;top:-3px;right:5px;box-sizing:border-box;width:36px;height:36px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMTUvMTWxuPuyAAACcElEQVRYhe3X30tTYRzH8fdz3FYTd1xamAuTLDbM3EwqNMnoQgxydVH0A6Ks/oG6Mvp1n1flVUJE3pjUTVPCCJxmEKTWRAuCApujkmhJoZu57ZwuwsCaOx7nbBf73D2H7/PldfjCc54j6CxXSaNI/xvwdzIgrWRAWsmAtJJ2IIOe4iLzejoqmym1lDAZ+UFEicatC8Vm6A++5Jb/Pm+nxlIHatl2keo8FwJBriGHREe8U7bjyrWz7/m51IHq1lWjqire4AAvJkf5qczGrduUvYHTRQdxyQ5dGN0gg8hCBc4MXyUQnliwbqO5kOO2/ZzyXQagONvGcO0DLrxp5m7As3ygxUZB4aTvEt1fnuGSHQgEnoleKnIdEEi8NymQ6h7555nocvJt9jsPJ3o4XFhHq/MaAkFF/xE+hD5p9kwKJLqccZ+HYjMcs9XTXnkdSUi0BToXhYEUnUM7rFvnYRqHryx6b1Ig1T2C6h4h0uDjqK0eSUi4ZAc9VbeRhMS76XFdGFjmkblkB3277yAbc3g/PY7D69bdc9lGNoexGi10fOzG7nWTb7KuLCh8YJAyy2YEgqE997AaLbQFOjnxqom1JiueXTd190xqZOZHOwFoLDrEVCxMm9/D+dfNSELiSVUrpZaSlQXNpTc4wJrHNX/W+SYr5bKdqBr/45soSxqZQWTNW/tDn+etV0umpbT93VtP8awSwZhl4EZZE/7wwgddsdmGJAQxRUktyPt1gIaCvTQU1Ca8eghAVVX6goO6QULPn2vBqnyatpylJm87RrHwu0TVKE+DQ7SMtSe8FSQNWomk3Z06A9JKBqSVDEgraQf6BTg8uT5wSV/pAAAAAElFTkSuQmCC);border-style:none;border-radius:4px;cursor:pointer}#StartBtn:hover{opacity:.8}@media(max-height:500px){#InputNext,#InputPrevious{display:none}}</style>
+</head>
+<body>
+<div class=widthWrapper>
+<button id=Edit></button>
+<h1>Kinktest - Version 4.3</h1>
+<h2>For each item, please select the level that shares the closest correspondence between your feelings and the topic. After you finish, click the export button, enter an identifier of your choosing, and then press okay. A link will be generated that contains a picture of your answers.</h2>
+<h3>Rating descriptions:</h3>
+<h4>
+- Favorite: You are excited to partake in the specified activity, and/or you are extremely attracted to this feature/behavior.<br><br>
+- Like: You enjoy the specified activity, and/or you are attracted to this feature/behavior.<br><br>
+- Okay: You are willing to partake in the specified activity, and/or you are somewhat attracted of this particular feature/behavior.<br><br>
+- Maybe: Depending on the circumstances, you might be willing to partake in the specified activity, and/or you might be attracted to this particular feature/behavior.<br><br>
+- Probably Not: You are likely unwilling to partake in the specified activity, and/or you are unlikely to be attracted to this particular feature/behavior.<br><br>
+- Limit: You are not willing to participate in the specified activity, and/or you are not attracted of this particular feature/behavior.<br><br>
+- Unknown: You do not know enough about this particular activity, feature, or behavior to make a judgment on it.<br><br>
+- Not Applicable: It is impossible for you to partake in this specific activity, or be attracted to this feature/behavior.
+For example, you are a male, so you are unable to become pregnant. Thus, you cannot enjoy being impregnated.
+For another example, you are deaf, so it is impossible for you to be attracted to auditory stimulation.
+</h4>
+<div class=legend style=text-align:center>
+<div><span data-color=#AF04FF class="choice favorite"></span> <span class=legend-text>Favorite</span></div>
+<div><span data-color=#1DB5FE class="choice like"></span> <span class=legend-text>Like</span></div>
+<div><span data-color=#74FD00 class="choice okay"></span> <span class=legend-text>Okay</span></div>
+<div><span data-color=#FFFE00 class="choice maybe"></span> <span class=legend-text>Maybe</span></div>
+<div><span data-color=#FA6F00 class="choice probablyNot"></span> <span class=legend-text>Probably Not</span></div>
+<div><span data-color=#BF0000 class="choice limit"></span> <span class=legend-text>Limit</span></div>
+<div><span data-color=#987000 class="choice unknown"></span> <span class=legend-text>Unknown</span></div>
+<div><span data-color=#FFFFFF class="choice notApplicable"></span> <span class=legend-text>Not Applicable</span></div>
+</div>
+<div id=ExportWrapper>
+<input type=text id=URL>
+<button id=Export>Export</button>
+<div id=Loading>Loading</div>
+</div>
+<button id=StartBtn></button>
+<div id=InputList></div>
+</div>
+<div id=EditOverlay class=overlay>
+<textarea id=Kinks>
+#Adult Activities
+(Providing/Creating, Experiencing/Receiving)
+* Caressing/petting
+* Cheating
+* Cross-dressing
+* Cuddling/spooning
+* Dirty talk
+* Erotic dancing
+* Escorts (companionship only)
+* Foreplay
+* Massages
+* Physical affection
+* Roleplay
+* Romance
+* Skinny-dipping
+#Body Features
+(You have, Partner has)
+* Amputations
+* Binding (compression)
+* Body/facial hair
+* Botox injections
+* Braids/dreadlocks
+* Corset piercings
+* Ear alterations (gauges, surgery, etc.)
+* Genitalia modification
+* Implants
+* Scars/veins/body marks etc.
+* Sharp nails
+* Piercings
+* Split tongue
+* Staples
+* Tattoos
+* Unnatural hair colors
+* Wigs
+#Body Parts
+(General)
+* Arms/armpits
+* Breasts
+* Butts
+* Cheeks/Cheekbones
+* Ears
+* Eyes
+* Feet/ankles/toes
+* Fingers/hands
+* Genitalia
+* Legs
+* Mouths/lips/teeth/tongues
+* Muscles
+* Navels
+* Necks
+* Noses
+* Shoulders
+* Thighs
+* Torsos
+#Clothing Items
+(You wear, Partner wears)
+* Body paint
+* Bodysuits
+* Boots
+* Casual
+* Capes/cloaks
+* Chokers/collars
+* Cosplay/costumes
+* Cut-out clothing
+* Corsets
+* Dresses
+* Garters
+* Glasses
+* Gloves/artificial claws/gauntlets
+* Harnesses
+* Heels/stilettos
+* Jackets
+* Jewelry
+* Lace/fabric footwear
+* Lingerie
+* Masks
+* Pauldrons/shurgs
+* Skirts
+* Stockings/leggings/tights
+* Uniforms/formal wear
+#Consensual Non-Consent
+(Enforcing/Perpetrating, Experiencing)
+* Blackmail/coercion
+* Drugs/alcohol
+* Ignoring traditional stop signals
+* Kidnapping
+* Rape play
+* Sleep play
+#Degradation
+(Enforcing/Using, Experiencing/Enduring)
+* Begging
+* Forced exhibitionism
+* Forced gender conversion
+* Forced repetition
+* Glory holes
+* Erotic humiliation
+* Non-erotic humiliation
+* Objectification (furniture, ashtray, etc.)
+* Pseudo-harassment
+#Excretions
+(They use your, You use their)
+* Blood
+* Cum
+* Earwax
+* Farts
+* Gore
+* Lactation
+* Mucus
+* Queefs
+* Pus
+* Saliva
+* Scat
+* Sweat
+* Urine
+* Vaginal discharge
+* Vomit
+#General Sex Acts
+(Creating/Giving, Experiencing/Receiving)
+* Anal sex/pegging
+* Blowjob
+* Casual encounters/prostitution
+* Clothed sex
+* Cunnilingus
+* Deep throat
+* Double/multi penetration
+* Erotica
+* Exhibitionism
+* Face-sitting
+* Facials
+* Fisting
+* Hand-jobs/fingering
+* Jerk Off Instructions
+* Mutual oral sex (69-ing)
+* Mutual manual stimulation
+* Pornography/hentai
+* Rim jobs
+* Sex in risky places
+* Sex outdoors
+* Shower sex
+* Swallowing
+* Voyeurism
+#Groupings
+(General)
+* You and one male
+* You and one female
+* You and Male-to-Female transgender
+* You and Female-to-Male transgender
+* You and one male, one female
+* You and two males
+* You and two females
+* Orgy
+#Impact/Pain
+(Enforcing/Controlling, Experiencing/Receiving)
+* Beating/rough play
+* Branding/fire play/burning
+* Caning
+* Cock/pussy torture
+* Cutting/knife play
+* Flogging/whipping
+* Hair pulling
+* Hook play
+* Hot wax play
+* Ice play
+* Pinching
+* Pricking play (needles, pins, etc.)
+* Scarification
+* Spanking
+#Materials
+(You wear, Partner wears)
+* Cotton
+* Denim
+* Fishnets
+* Fur/down/feathers
+* Lace
+* Latex/PVC/Vinyl
+* Leather
+* Lycra/spandex
+* Metal
+* Nothing (nudity)
+* Nylon
+* Plastics
+* Rubber
+* Satin
+* Silk
+* Velvet
+* Wool
+#Miscellaneous Fetish Topics
+(Enforcing/Giving, Experiencing/Receiving)
+* 24/7 BDSM Relationships
+* Ageplay
+* Cuckold/cuckquean
+* Daddy/mommy & little
+* Dacryphilia (crying)
+* Dollification
+* Financial domination
+* Food play
+* Impregnation
+* Medical play
+* Pet play
+* Pregnancy
+* Protocol
+#Preferred Position
+(General)
+* Dominant
+* No power imbalance
+* Submissive
+* Switch
+#Primal/Aggressive
+(Doing/Being, Receiving)
+* Bearing teeth
+* Biting
+* Growling/hissing/snarling
+* Hickeys/marks
+* Hunter
+* Licking
+* Lip biting
+* Pawing (clawing gesture)
+* Pursuit, Take-Down, & Capture
+* Prey
+* Ripping clothing
+* Scratching/clawing
+* Snuff
+* Teeth licking gesture
+* Vore
+#Relationship Styles
+(General)
+* Monogamy
+* Open relationships
+* Polyamory
+#Restrictive
+(Enforcing/Controlling, Experiencing/Receiving)
+* Bondage/Shibari
+* Breath restriction
+* Caging and confinement
+* Chastity
+* Discipline
+* Domestic servitude
+* Encasement
+* Enslavement
+* Forcing flexible positions
+* Hooding
+* Orgasm edging/denial/pressure
+* Suspension Bondage
+* Vacuums
+#Sensory Manipulation
+(Enforcing/Controlling, Experiencing/Receiving)
+* Being blindfolded
+* Being deafened
+* Electro-stimulation
+* Perfume/artificial scents
+* Temperature play
+* Tickling
+#Surrealism
+(You are/have a, Partner is/has a)
+* Cybernetic equipment
+* Fangs
+* Furry
+* Futanari
+* Horns
+* Human-like monsters
+* Neko ears
+* Tails
+* Tentacles
+* Transformation (creature or gender)
+* Unnatural eye colors
+* Wings
+#Toys
+(Using, Partner uses on you)
+* Anal beads
+* Cock rings
+* Dildos
+* Furniture
+* Gags
+* Handcuffs
+* Inflateables
+* Insertables
+* Leashes/leads
+* Nipple clamps
+* Plugs
+* Remote control devices
+* Sex dice
+* Strap-ons
+* Tape/glue
+* Vaginal beads/balls
+* Vibrators
+* Virtual reality
+#Turn-ons
+(General)
+* Accents
+* Androgyny
+* Auralism
+* Eye contact
+* Intelligence
+* Kindness
+* Life experience
+* Makeup
+* Nurture
+* Privacy
+* Reservation
+* Similarity
+* Social deviance
+* Trust
+            </textarea>
+<button id=KinksOK>Accept</button>
+</div>
+<div id=InputOverlay class=overlay>
+<div class=widthWrapper>
+<div id=InputPrevious></div>
+<div id=InputCurrent>
+<h2 id=InputCategory></h2>
+<h3 id=InputField></h3>
+<button class=closePopup>&times;</button>
+<div id=InputValues></div>
+</div>
+<div id=InputNext></div>
+</div>
+</div>
+<script>var log=function(t,n){return Math.log(t)/Math.log(n)},strToClass=function(t){var n="";t=t.toLowerCase();for(var e=!1,i=0;i<t.length;i++)var a=t[i],e=!(0<="abcdefghijklmnopqrstuvwxyz".indexOf(a))||(e&&(a=a.toUpperCase()),n+=a,!1);return n},addCssRule=function(t,n){var e=document.styleSheets[0];"insertRule"in e?e.insertRule(t+"{"+n+"}",0):"addRule"in e&&e.addRule(t,n,0)},kinks={},inputKinks={},colors={},level={};$(function(){inputKinks={$columns:[],createCategory:function(t,n){for(var e=$('<div class="kinkCategory">').addClass("cat-"+strToClass(t)).data("category",t).append($("<h2>").text(t)),i=$('<table class="kinkGroup">').data("fields",n),a=$("<thead>").appendTo(i),s=0;s<n.length;s++)$("<th>").addClass("choicesCol").text(n[s]).appendTo(a);return $("<th>").appendTo(a),$("<tbody>").appendTo(i),e.append(i),e},createChoice:function(){for(var t=$("<div>").addClass("choices"),n=Object.keys(level),e=0;e<n.length;e++)$("<button>").addClass("choice").addClass(level[n[e]]).data("level",n[e]).data("levelInt",e).attr("title",n[e]).appendTo(t).on("click",function(){t.find("button").removeClass("selected"),$(this).addClass("selected")});return t},createKink:function(t,n){for(var e=$("<tr>").data("kink",n).addClass("kinkRow"),i=0;i<t.length;i++){var a=inputKinks.createChoice();a.data("field",t[i]),a.addClass("choice-"+strToClass(t[i])),$("<td>").append(a).appendTo(e)}return $("<td>").text(n).appendTo(e),e.addClass("kink-"+strToClass(n)),e},createColumns:function(){var t=Math.floor((document.body.scrollWidth-20)/400);4<(t=t||1)&&(t=4);var n="col"+["100","50","33","25"][t-1];inputKinks.$columns=[];for(var e=0;e<t;e++)inputKinks.$columns.push($("<div>").addClass("col "+n).appendTo($("#InputList")))},placeCategories:function(t){for(var n=$("body"),e=0,i=0;i<t.length;i++){var a=t[i].clone().appendTo(n);e+=a.height(),a.remove()}for(var s=e/inputKinks.$columns.length,o=0,i=0;i<t.length;i++){for(s<inputKinks.$columns[o].height()+t[i].height()/2&&o++;o>=inputKinks.$columns.length;)o--;inputKinks.$columns[o].append(t[i])}},fillInputList:function(){$("#InputList").empty(),inputKinks.createColumns();for(var t=[],n=Object.keys(kinks),e=0;e<n.length;e++){for(var i=n[e],a=kinks[i],s=a.fields,o=a.kinks,r=inputKinks.createCategory(i,s),l=r.find("tbody"),u=0;u<o.length;u++)l.append(inputKinks.createKink(s,o[u]));t.push(r)}inputKinks.placeCategories(t),$("#InputList").find("button.choice").on("click",function(){location.hash=inputKinks.updateHash()})},init:function(){var n;inputKinks.fillInputList(),inputKinks.parseHash(),$("#Export").on("click",inputKinks.export),$("#URL").on("click",function(){this.select()}),n=0,$(window).on("resize",function(){var t=(new Date).getTime();n=t,setTimeout(function(){n===t&&(inputKinks.fillInputList(),inputKinks.parseHash())},500)})},hashChars:"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.=+*^!@",maxPow:function(t,n){for(var e=1,i=1;Math.pow(t,i)<=n;i++)e=i;return e},prefix:function(t,n,e){for(;t.length<n;)t=e+t;return t},drawLegend:function(t){t.font="bold 13px Arial",t.fillStyle="#000000";for(var n=Object.keys(colors),e=t.canvas.width-15-120*n.length,i=0;i<n.length;i++)t.beginPath(),t.arc(e+120*i,17,8,0,2*Math.PI,!1),t.fillStyle=colors[n[i]],t.fill(),t.strokeStyle="rgba(0, 0, 0, 0.5)",t.lineWidth=1,t.stroke(),t.fillStyle="#000000",t.fillText(n[i],15+e+120*i,22)},setupCanvas:function(t,n,e){$("canvas").remove();var i=document.createElement("canvas");i.width=t,i.height=n,$(i).css({width:t,height:n});var a=i.getContext("2d");a.fillStyle="#FFFFFF",a.fillRect(0,0,i.width,i.height),a.font="bold 14px Arial",a.fillStyle="#000000";return a.fillText(e+"'s results from kinktest.onyxazryn.com (Version 4.3)",5,25),inputKinks.drawLegend(a),{context:a,canvas:i}},drawCallHandlers:{simpleTitle:function(t,n){t.fillStyle="#000000",t.font="bold 18px Arial",t.fillText(n.data,n.x,n.y+5)},titleSubtitle:function(t,n){t.fillStyle="#000000",t.font="bold 18px Arial",t.fillText(n.data.category,n.x,n.y+5);var e=n.data.fields.join(", ");t.font="italic 12px Arial",t.fillText(e,n.x,n.y+20)},kinkRow:function(t,n){t.fillStyle="#000000",t.font="12px Arial";var e=n.x+5+20*n.data.choices.length,i=n.y-6;t.fillText(n.data.text,e,i);for(var a=0;a<n.data.choices.length;a++){var s=n.data.choices[a],o=colors[s],e=10+n.x+20*a,i=n.y-10;t.beginPath(),t.arc(e,i,8,0,2*Math.PI,!1),t.fillStyle=o,t.fill(),t.strokeStyle="rgba(0, 0, 0, 0.5)",t.lineWidth=1,t.stroke()}}},export:function(){for(var t="";""===t;)t=prompt("Please enter your name:");$("#Loading").fadeIn(),$("#URL").fadeOut();for(var n=10,e=10,i=50,a=10,s=$(".kinkCategory").length,o=$(".kinkCategory th + th + th").length,r=s-o,l=25*$(".kinkRow").length+50*o+35*r,u=[],c=0;c<6;c++)u.push({height:0,drawStack:[]});var p=l/6,d=0;$(".kinkCategory").each(function(){var t=$(this),n=t.data("category"),e=kinks[n],i=e.fields,a=e.kinks,s=0;for(s+=1===i.length?35:50,s+=25*a.length,u[d].height+s/2>p&&d++;6<=d;)d--;var o=u[d],r={y:o.height};o.drawStack.push(r),i.length<2?(o.height+=35,r.type="simpleTitle",r.data=n):(o.height+=50,r.type="titleSubtitle",r.data={category:n,fields:i}),t.find(".kinkRow").each(function(){var t=$(this),e={y:o.height,type:"kinkRow",data:{choices:[],text:t.data("kink")}};o.drawStack.push(e),o.height+=25,t.find(".choices").each(function(){var t=$(this).find(".choice.selected"),n=0<t.length?t.data("level"):Object.keys(level)[0];e.data.choices.push(n)})})});for(var h=0,c=0;c<u.length;c++)h<u[c].height&&(h=u[c].height);for(var k=n+e+1500,f=i+a+h,v=inputKinks.setupCanvas(k,f,t),g=v.context,y=v.canvas,c=0;c<u.length;c++)for(var K=u[c].drawStack,x=n+250*c,m=0;m<K.length;m++){var C=K[m];C.x=x,C.y+=i,inputKinks.drawCallHandlers[C.type](g,C)}$.ajax({url:"https://api.imgur.com/3/image",type:"POST",headers:{Authorization:"Client-ID 9db53e5936cd02f",Accept:"application/json"},data:{image:y.toDataURL().split(",")[1],type:"base64"},success:function(t){$("#Loading").hide();var n="https://i.imgur.com/"+t.data.id+".png";$("#URL").val(n).fadeIn()},fail:function(){$("#Loading").hide(),alert("Failed to upload to imgur! A connection could not be made to the service.")}})},encode:function(t,n){for(var e=inputKinks.hashChars.length,i=inputKinks.maxPow(e,Number.MAX_SAFE_INTEGER),a=inputKinks.maxPow(t,Math.pow(e,i)),s="",o=Math.ceil(n.length/a),r=0,l=0;l<o;l++){for(var u=0,c=0;c<a;c++){var p=n[r++];if(void 0===p)break;u+=p*Math.pow(t,c)}for(var d="";0<u;){var h=Math.floor(log(u,e)),k=Math.pow(e,h),f=Math.floor(u/k),v=f*k;d+=inputKinks.hashChars[f],u-=v}s+=inputKinks.prefix(d,i,inputKinks.hashChars[0])}return s},decode:function(t,n){for(var e=inputKinks.hashChars.length,i=inputKinks.maxPow(e,Number.MAX_SAFE_INTEGER),a=[],s=Math.max(n.length/i),o=0;o<s;o++)for(var r=n.substring(o*i,(o+1)*i),l=inputKinks.decodeChunk(t,r),u=0;u<l.length;u++)a.push(l[u]);return a},decodeChunk:function(t,n){for(var e=inputKinks.hashChars.length,i=inputKinks.maxPow(e,Number.MAX_SAFE_INTEGER),a=inputKinks.maxPow(t,Math.pow(e,i)),s=0,o=0;o<n.length;o++){var r=n[o],l=inputKinks.hashChars.indexOf(r),u=n.length-1-o;s+=Math.pow(e,u)*l}for(var c=[],u=a-1;0<=u;u--){var p=Math.floor(Math.pow(t,u)),d=Math.floor(s/p),h=p*d;c.push(d),s-=h}return c.reverse(),c},updateHash:function(){var n=[];return $("#InputList .choices").each(function(){var t=(t=$(this).find(".selected").data("levelInt"))||6;n.push(t)}),inputKinks.encode(Object.keys(colors).length,n)},parseHash:function(){var e,i,t=location.hash.substring(1);t.length<10||(e=inputKinks.decode(Object.keys(colors).length,t),i=0,$("#InputList .choices").each(function(){var t=$(this),n=e[i++];t.children().eq(n).addClass("selected")}))},saveSelection:function(){var n=[];return $(".choice.selected").each(function(){var t="."+this.className.replace(/ /g,"."),t="."+$(this).closest(".choices")[0].className.replace(/ /g,".")+" "+t;t="."+$(this).closest("tr.kinkRow")[0].className.replace(/ /g,".")+" "+t,t=(t="."+$(this).closest(".kinkCategory")[0].className.replace(/ /g,".")+" "+t).replace(".selected",""),n.push(t)}),n},inputListToText:function(){for(var t="",n=Object.keys(kinks),e=0;e<n.length;e++){var i=n[e],a=kinks[i].fields,s=kinks[i].kinks;t+="#"+i+"\r\n",t+="("+a.join(", ")+")\r\n";for(var o=0;o<s.length;o++)t+="* "+s[o]+"\r\n";t+="\r\n"}return t},restoreSavedSelection:function(e){setTimeout(function(){for(var t=0;t<e.length;t++){var n=e[t];$(n).addClass("selected")}location.hash=inputKinks.updateHash()},300)},parseKinksText:function(t){for(var n={},e=t.replace(/\r/g,"").split("\n"),i=null,a=null,s=0;s<e.length;s++){var o,r=e[s];if(r.length){if("#"===r[0]){if(a){if(!(i.fields instanceof Array)||i.fields.length<1)return void alert(a+" does not have any fields defined!");if(!(i.kinks instanceof Array)||i.kinks.length<1)return void alert(a+" does not have any kinks listed!");n[a]=i}a=r.substring(1).trim(),i={kinks:[]}}if(a){if("("===r[0]){i.fields=r.substring(1,r.length-1).trim().split(",");for(var l=0;l<i.fields.length;l++)i.fields[l]=i.fields[l].trim()}"*"===r[0]&&(o=r.substring(1).trim(),i.kinks.push(o))}}}if(a&&!n[a]){if(!(i.fields instanceof Array)||i.fields.length<1)return void alert(a+" does not have any fields defined!");if(!(i.kinks instanceof Array)||i.kinks.length<1)return void alert(a+" does not have any kinks listed!");n[a]=i}return n}},$("#Edit").on("click",function(){var t=inputKinks.inputListToText();$("#Kinks").val(t.trim()),$("#EditOverlay").fadeIn()}),$("#EditOverlay").on("click",function(){$(this).fadeOut()}),$("#KinksOK").on("click",function(){var t=inputKinks.saveSelection();try{var n=$("#Kinks").val();kinks=inputKinks.parseKinksText(n),inputKinks.fillInputList()}catch(t){return void alert("An error ocurred trying to parse the text entered, please correct it and try again.")}inputKinks.restoreSavedSelection(t),$("#EditOverlay").fadeOut()}),$(".overlay > *").on("click",function(t){t.stopPropagation()});var l,u,c,p,d,h;document.styleSheets[0];$(".legend .choice").each(function(){var t=$(this),n=t.parent().text().trim(),e=t.data("color"),i=this.className.replace("choice ","").trim();addCssRule(".choice."+i,"background-color: "+e+";"),colors[n]=e,level[n]=i}),kinks=inputKinks.parseKinksText($("#Kinks").text().trim()),inputKinks.init(),l=$("#InputOverlay"),u=$("#InputPrevious"),c=$("#InputNext"),p=$("#InputCategory"),d=$("#InputField"),h=$("#InputValues"),inputKinks.getAllKinks=function(){for(var t,n,e,i=[],a=Object.keys(kinks),s=0;s<a.length;s++)for(var o=a[s],r=kinks[o].fields,l=kinks[o].kinks,u=0;u<r.length;u++)for(var c=r[u],p=0;p<l.length;p++){var d=l[p],h=(t=d,n=c,e=void 0,e=".cat-"+strToClass(o),e+=" .kink-"+strToClass(t),e+=" .choice-"+strToClass(n),$(e)),k={category:o,kink:d,field:c,value:h.find(".choice.selected").data("level"),$choices:h,showField:2<=r.length};i.push(k)}return i},inputKinks.inputPopup={numPrev:3,numNext:3,allKinks:[],kinkByIndex:function(t){var n=inputKinks.inputPopup.allKinks.length;return t=(n+t)%n,inputKinks.inputPopup.allKinks[t]},generatePrimary:function(i){var a=$("<div>"),t=0;return $(".legend > div").each(function(){var n=$(this).clone();n.addClass("big-choice"),n.appendTo(a),$("<span>").addClass("btn-num-text").text(t++).appendTo(n);var e=n.text().trim().replace(/[0-9]/g,"");i.value===e&&n.addClass("selected"),n.on("click",function(){a.find(".big-choice").removeClass("selected"),n.addClass("selected"),i.value=e,h.fadeOut(200,function(){h.show(),inputKinks.inputPopup.showNext()});var t=strToClass(e);i.$choices.find("."+t).click()})}),a},generateSecondary:function(t){var n=$('<div class="kink-simple">');return $('<span class="choice">').addClass(level[t.value]).appendTo(n),$('<span class="txt-category">').text(t.category).appendTo(n),t.showField&&$('<span class="txt-field">').text(t.field).appendTo(n),$('<span class="txt-kink">').text(t.kink).appendTo(n),n},showIndex:function(t){u.html(""),c.html(""),h.html(""),l.data("index",t);var n=inputKinks.inputPopup.kinkByIndex(t),e=inputKinks.inputPopup.generatePrimary(n);h.append(e),p.text(n.category),d.text((n.showField?"("+n.field+") ":"")+n.kink),h.append(e);for(var i=inputKinks.inputPopup.numPrev;0<i;i--){var a=inputKinks.inputPopup.kinkByIndex(t-i),s=inputKinks.inputPopup.generateSecondary(a);u.append(s),function(t){s.on("click",function(){inputKinks.inputPopup.showPrev(t)})}(i)}for(i=1;i<=inputKinks.inputPopup.numNext;i++){var o=inputKinks.inputPopup.kinkByIndex(t+i),r=inputKinks.inputPopup.generateSecondary(o);c.append(r),function(t){r.on("click",function(){inputKinks.inputPopup.showNext(t)})}(i)}},showPrev:function(t){"number"!=typeof t&&(t=1);var n=l.data("index")-t,e=inputKinks.inputPopup.allKinks.length,n=(e+n)%e;inputKinks.inputPopup.showIndex(n)},showNext:function(t){"number"!=typeof t&&(t=1);var n=l.data("index")+t,e=inputKinks.inputPopup.allKinks.length,n=(e+n)%e;inputKinks.inputPopup.showIndex(n)},show:function(){inputKinks.inputPopup.allKinks=inputKinks.getAllKinks(),inputKinks.inputPopup.showIndex(0),l.fadeIn()}},$(window).on("keydown",function(t){if(!(t.altKey||t.shiftKey||t.ctrlKey)&&l.is(":visible")){38===t.keyCode&&(inputKinks.inputPopup.showPrev(),t.preventDefault(),t.stopPropagation()),40===t.keyCode&&(inputKinks.inputPopup.showNext(),t.preventDefault(),t.stopPropagation());var n=-1;if(96<=t.keyCode&&t.keyCode<=101)n=t.keyCode-96;else{if(!(48<=t.keyCode&&t.keyCode<=53))return;n=t.keyCode-48}h.find(".big-choice").eq(n).click()}}),$("#StartBtn").on("click",inputKinks.inputPopup.show),$("#InputCurrent .closePopup, #InputOverlay").on("click",function(){l.fadeOut()})});</script>
+</body>
+</html>
