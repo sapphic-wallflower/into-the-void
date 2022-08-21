@@ -66,6 +66,7 @@ I don't understand, some of these are insanely hard, some of them are just walk 
 
 ## Difficulty
 ### **Sonic & Tails**
+This is the default expereience. I underutilized Tails, but it doesn't feel like I missed anything substatial by not using her. I killed bosses faster, I guess.
 ### **Sonic**
 Pretty standard. You aren't going to reach any of the special things that you need to have/be Tails to get, but out of sight, out of mind, right? 
 
