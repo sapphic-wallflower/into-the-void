@@ -8,11 +8,11 @@
 Thank you for taking the time to check out my website. I don't expect anyone to find this, it'll mostly serve as a way for me to link things to friends instead of screenshotting my notes. It'll also be an extension of my [Backloggery](https://www.backloggery.com/QueenRaven29), since I'm limited in how much I can type there. 
 
 ## Groups
-- [GameBoy Advanced](/GameBoy-Advance/GBA-index) | Last Update: None...
-- [GameCube](/GameCube/gamecube-index) | Last Update: 2022-04-13 - Dragon Ball Z: Budokai 2
-- [Linux](/Linux/linux-index) | Last Update: 2022-06-25 - Sonic The Hedgehog 3 & Knuckles
-- [Steam](/Steam/steam-index) | Last Update: 2022-04-11 - Secret Little Haven
-- [Wii](/Wii/wii-index) | Last Update: None...
+- [GameBoy Advanced](/GameBoy-Advance/GBA-index) Last Update: None...
+- [GameCube](/GameCube/gamecube-index) Last Update: 2022-04-13 - Dragon Ball Z: Budokai 2
+- [Linux](/Linux/linux-index) Last Update: 2022-06-25 - Sonic The Hedgehog 3 & Knuckles
+- [Steam](/Steam/steam-index) Last Update: 2022-04-11 - Secret Little Haven
+- [Wii](/Wii/wii-index) Last Update: None...
 
 ## Friends of the Void
 
