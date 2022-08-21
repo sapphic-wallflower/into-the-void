@@ -9,9 +9,9 @@ Thank you for taking the time to check out my website. I don't expect anyone to 
 
 ## Groups
 - [GameBoy Advanced](/GameBoy-Advance/GBA-index) Last Update: None...
-- [GameCube](/GameCube/gamecube-index) Last Update: 2022-04-13 - Dragon Ball Z: Budokai 2
-- [Linux](/Linux/linux-index) Last Update: 2022-06-25 - Sonic The Hedgehog 3 & Knuckles
-- [Steam](/Steam/steam-index) Last Update: 2022-04-11 - Secret Little Haven
+- [GameCube](/GameCube/gamecube-index) Last Update: 2022-04-13 - [Dragon Ball Z: Budokai 2](/GameCube/DBZBudokai2)
+- [Linux](/Linux/linux-index) Last Update: 2022-06-25 - [Sonic The Hedgehog 3 & Knuckles](/Linux/SonicTheHedgehog3&Knuckles)
+- [Steam](/Steam/steam-index) Last Update: 2022-04-11 - [Secret Little Haven](/Steam/SecretLittleHaven)
 - [Wii](/Wii/wii-index) Last Update: None...
 
 ## Friends of the Void
