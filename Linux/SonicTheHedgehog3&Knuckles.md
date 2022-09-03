@@ -21,7 +21,7 @@ This game is a massive step up from Sonic 1, 2, & CD. Everything is better, from
 
 ## Gameplay
 
-Originally, when I started writing this review, I was going to review each level, and each of the special stages. Every time I completed a play through, I felt differently about each level, and decided that writing my first impressions make no sense. I stopped agreeing with each of my level specific reviews more and more.
+Originally, when I started writing this review, I was going to review each level, and each of the special stages. Every time I completed a play through, I felt differently about each level, and decided that writing my first impressions make no sense. I stopped agreeing with each of my level specific reviews the more I looked at them. I started to realize that I was playing a SEGA game. I don't think I've ever played a SEGA game that was anything other than okay my first time through. I kept getting better at the game, and the levels started making more sense. 
 
 ## Difficulty
 ### **Sonic & Tails**
@@ -46,7 +46,7 @@ I can see the appeal of wanting to complete this game. It has a clear direction 
 
 Showing all completed play throughs, and all achievements. 
 
-![](./Assets/Sonic3-100.webm)
+![](./Assets/Sonic3-100.mp4)
 
 * * *
 
