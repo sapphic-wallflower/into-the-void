@@ -21,7 +21,9 @@ This game is a massive step up from Sonic 1, 2, & CD. Everything is better, from
 
 ## Gameplay
 
-Originally, when I started writing this review, I was going to review each level, and each of the special stages. Every time I completed a play through, I felt differently about each level, and decided that writing my first impressions make no sense. I stopped agreeing with each of my level specific reviews the more I looked at them. I started to realize that I was playing a SEGA game. I don't think I've ever played a SEGA game that was anything other than okay my first time through. I kept getting better at the game, and the levels started making more sense. 
+My first version of this review had a breakdown of how I felt about every level. The more I played the game, and the more I read my reviews, I agreed with them less and less. Every levels is unqiue in its own way, and you'll find a way to love or dislike something on every level, but you'll come to love everything about this game. Each play through makes you get better at the game, and you can see that translate in real time. You will see yourself get progressively better, and that's something rare in video games I feel. 
+
+I'm not going to describe each level to you, I implore you to go play them yourself. Some levels have flaws, but they're some of the most fun platforming you can experience in gaming, even in [current year].
 
 ## Difficulty
 ### **Sonic & Tails**
@@ -40,13 +42,13 @@ When I was a kid, I had no idea that Knuckles levels were remixed versions of th
 More or less the same thoughts as my thoughts on Knuckles. Second play through as Knuckles was easy, and Tails mostly just got in the way.
 
 ## Completion
-I can see the appeal of wanting to complete this game. It has a clear direction of what 100% would look like, esepcially if you play A.I.R.. It's hard for me to recommend it personally, as this game sat on my backlog for so long, it kept me from playing anything else. This is mostly a me problem, but if you can't start a game until you finish the previous, and you're not a die hard platformer fan, you might consider beating this and moving on. I slowly chipped away at this until I completed it, which took me a few months. The sheer scope of this game is daunting, since it's two games built into one. 
+I absolutely recommend going for full completion of this game. It takes less than 30 hours to do, and seeing & feelings yourself get better to achieve those multiple saves files makes you feel good. When I started, I thought I was just going to beat the game and call it there. I ended up not only completing the game, I went back and did a bunch of time trials to see how fast I could beat each level. This is such a fun experience, even if you aren't a mega platformer fan. 
 
 ## Media Gallery
 
 Showing all completed play throughs, and all achievements. 
 
-![](./Assets/Sonic3-100.mp4)
+![](https://raw.githubusercontent.com/sapphic-wallflower/into-the-void/gh-pages/Linux/Assets/Sonic3-100.mp4)
 
 * * *
 
