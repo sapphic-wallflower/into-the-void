@@ -4,6 +4,6 @@ author:
   name: 
   email: 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Reviews of various video games Void has played, beaten, or completed. An extension of their Backloggery.
+  Void's thoughts on the media we surround ourselves with.
 normalize: true
 darkmode: true
