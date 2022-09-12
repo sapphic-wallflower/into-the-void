@@ -73,4 +73,4 @@ The fusions in this game were really hard to pull off, but super strong. This on
 ![](./Assets/DBZB2Fusion1.png) ![](./Assets/DBZB2Fusion2.png)
 
 * * *
-## Return to: [Homepage](/index) - [Games](/Games/games-index) - [GameCube List](/GameCube/gamecube-index)
+## Return to: [Homepage](/Home) - [Games](/Games/Home) - [GameCube List](/GameCube/Home)
