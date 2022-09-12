@@ -25,4 +25,4 @@
 - Stardew Valley Coming soon...
 
 * * *
-## Return to: [Homepage](/index) - [Games](/Games/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Games/Home)

@@ -100,4 +100,4 @@ To date, this is the most gold I've ever gotten in a single game.
 ![](./Assets/DRGMostGold.png)
 
 * * *
-## Return to: [Homepage](/index) - [Games](/Games/Home) - [Steam List](/Steam/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Home) - [Steam List](/Games/Steam/Home)

@@ -62,4 +62,4 @@ A lot of the time, Tails would go in and hit the boss before me, making me fall 
 ![](./Assets/Sonic3-TailsDeath.png)
 
 * * *
-## Return to: [Homepage](/index) - [Games](/Games/Home) - [Linux List](/Linux/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Home) - [Linux List](/Games/Linux/Home)

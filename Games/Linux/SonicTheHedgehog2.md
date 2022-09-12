@@ -39,4 +39,4 @@ Completing this game boils down to getting all the chaos emeralds as all four ch
 ![](./Assets/Sonic2-100.png)
 
 * * *
-## Return to: [Homepage](/index) - [Games](/Games/Home) - [Linux List](/Linux/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Home) - [Linux List](/Games/Linux/Home)
