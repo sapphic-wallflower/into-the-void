@@ -4,7 +4,7 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-|![Video Games](/SSHP/test.jpg)|![Anime, Movies, Shows](/SSHP/test.jpg)|
+|[![Video Games](/SSHP/test.jpg)(/Games/Home)|![Anime, Movies, Shows](/SSHP/test.jpg)|
 |---|---|
 |![Music](/SSHP/test.jpg)|![Miscellaneous](/SSHP/test.jpg)
 
