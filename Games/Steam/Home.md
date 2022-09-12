@@ -24,5 +24,5 @@
 - Star Wars: Battlefront II (2005) Coming soon...
 - Stardew Valley Coming soon...
 
-* * *
-## Return to: [Homepage](/index) - [Games](/Games/Games/Home)
+***
+Return to: [[Home]](/index) [[Games]](/Games/Home)

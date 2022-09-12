@@ -7,5 +7,5 @@
 - Shadow The Hedgehog Coming soon...
 - Tony Hawk's American Wasteland Coming soon...
 
-* * *
-## Return to: [Homepage](/index) - [Games](/Games/Home)
+***
+Return to: [[Homepage]](/index) [[Games]](/Games/Home)

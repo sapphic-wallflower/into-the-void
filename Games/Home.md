@@ -6,5 +6,5 @@
 - [Steam](/Games/Steam/Home) Last Update: 2022-04-11 - [Secret Little Haven](/Games/Steam/SecretLittleHaven)
 - [Wii](/Games/Wii/Home) Last Update: None...
 
-* * *
-## Return to: [Homepage](/index)
+***
+ Return to: [[Home]](/index)

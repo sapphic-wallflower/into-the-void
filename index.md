@@ -4,9 +4,10 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-[Video Games](/Games/Home) | [Music](/index) | [Anime, Movies, Shows](/index) | [Miscellaneous](/SSHP/Home)
+# Where would you like to go?
+[Video Games](/Games/Home) <> [Music](/index) <> [Anime, Movies, Shows](/index) <> [Miscellaneous](/SSHP/Home)
 
-
+***
 ## Friends of the Void
 
 [![OliverSpin](https://files.catbox.moe/se3kxa.gif)](https://steelviper77.neocities.org/) 
@@ -18,4 +19,4 @@
  ![Friends of the Void](/SSHP/webring-button.gif)
 
 ***
-[contact](https://twitter.com/jamieofthevoid) | [steam](https://steamcommunity.com/id/queenofthevoid/) | [backloggery](https://www.backloggery.com/QueenRaven29)
+[[contact]](https://twitter.com/jamieofthevoid) [[steam]](https://steamcommunity.com/id/queenofthevoid/) [[backloggery]](https://www.backloggery.com/QueenRaven29)

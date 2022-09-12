@@ -51,5 +51,5 @@ Inside joke I made between my girlfriends in the in-game reminders app.
 
 ![](./Assets/SLHFigureItOut.png)
 
-* * *
-## Return to: [Homepage](/index) - [Games](/Games/Home) - [Steam List](/Games/Steam/Home)
+***
+Return to: [[Home]](/index) [[Games]](/Games/Home) [[Steam]](/Games/Steam/Home)
