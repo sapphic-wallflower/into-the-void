@@ -4,7 +4,12 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-# Where would you like to go?
+![Video Games](/SSHP/test.jpg)![Anime, Movies, Shows](/SSHP/test.jpg)
+
+![Music](/SSHP/test.jpg)![Miscellaneous](/SSHP/test.jpg)
+
+
+
 [Video Games](/Games/Home) <> [Music](/index) <> [Anime, Movies, Shows](/index) <> [Miscellaneous](/SSHP/Home)
 
 ***
