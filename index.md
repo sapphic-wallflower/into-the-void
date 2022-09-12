@@ -4,9 +4,9 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-|[![Video Games](/SSHP/test.jpg)(/Games/Home)|![Anime, Movies, Shows](/SSHP/test.jpg)|
-|---|---|
-|![Music](/SSHP/test.jpg)|![Miscellaneous](/SSHP/test.jpg)
+|[![Video Games](/SSHP/test.jpg)](/Games/Home)|[![Anime, Shows, Movies](/SSHP/test.jpg)](/Games/Home)|
+|-|-|
+|[![Music](/SSHP/test.jpg)](/Games/Home)|[![Miscellaneous](/SSHP/test.jpg)](/Games/Home)|
 
 ***
 ## Friends of the Void
@@ -14,6 +14,7 @@
 [![OliverSpin](https://files.catbox.moe/se3kxa.gif)](https://steelviper77.neocities.org/) 
 [![Princess](https://files.catbox.moe/he8oc0.gif)](https://chloes-secret-hideout.neocities.org/)
 [![Emmixis](https://files.catbox.moe/f4jv7o.gif)](https://emmixis.net/)
+
 
  Want to become friends? Add me to your site! 
 
