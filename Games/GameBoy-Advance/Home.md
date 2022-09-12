@@ -3,4 +3,4 @@
 - Pokemon Yellow Coming soon...
 
 * * *
-## Return to: [Homepage](/Home) - [Games](/Games/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Home)

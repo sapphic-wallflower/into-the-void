@@ -7,4 +7,4 @@
 - [Wii](/Games/Wii/Home) Last Update: None...
 
 * * *
-## Return to: [Homepage](/Home)
+## Return to: [Homepage](/index)

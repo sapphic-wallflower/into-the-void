@@ -6,4 +6,4 @@
 - [Sonic The Hedgehog 3 & Knuckes](/Games/Linux/SonicTheHedgehog3%26Knuckles) Completed: 2022-09-02
 
 * * *
-## Return to: [Homepage](/Home) - [Games](/Games/Home)
+## Return to: [Homepage](/index) - [Games](/Games/Home)
