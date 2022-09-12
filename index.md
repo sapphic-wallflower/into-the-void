@@ -4,13 +4,9 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-![Video Games](/SSHP/test.jpg)![Anime, Movies, Shows](/SSHP/test.jpg)
-
-![Music](/SSHP/test.jpg)![Miscellaneous](/SSHP/test.jpg)
-
-
-
-[Video Games](/Games/Home) <> [Music](/index) <> [Anime, Movies, Shows](/index) <> [Miscellaneous](/SSHP/Home)
+|![Video Games](/SSHP/test.jpg)|![Anime, Movies, Shows](/SSHP/test.jpg)|
+|---|---|
+|![Music](/SSHP/test.jpg)|![Miscellaneous](/SSHP/test.jpg)
 
 ***
 ## Friends of the Void
