@@ -46,7 +46,7 @@ I absolutely recommend going for full completion of this game. It takes less tha
 
 Showing all completed play throughs, and all achievements. 
 
-<video src="https://raw.githubusercontent.com/sapphic-wallflower/into-the-void/gh-pages/Linux/Assets/Sonic3-100.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://raw.githubusercontent.com/sapphic-wallflower/into-the-void/gh-pages/Games/Linux/Assets/Sonic3-100.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 * * *
