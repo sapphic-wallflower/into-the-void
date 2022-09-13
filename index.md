@@ -4,9 +4,13 @@
 
 ![Void's Archive](/SSHP/index-banner.png)
 
-|[![Video Games](/SSHP/test.jpg)](/Games/Home)|[![Anime, Shows, Movies](/SSHP/test.jpg)](/Games/Home)|
+|[![Video Games](/SSHP/videogames.png)](/Games/Home)|[![Anime, Shows, Movies](/SSHP/shows.png)](/Games/Home)|
 |-|-|
-|[![Music](/SSHP/test.jpg)](/Games/Home)|[![Miscellaneous](/SSHP/test.jpg)](/Games/Home)|
+|[![Music](/SSHP/music.png)](/Games/Home)|[![Miscellaneous](/SSHP/misc.png)](/Games/Home)|
+
+| | | | |
+|-|-|-|-|
+|[![Music](/SSHP/music.png)](/Games/Home)|[![Miscellaneous](/SSHP/misc.png)](/Games/Home)|[![Video Games](/SSHP/videogames.png)](/Games/Home)|[![Anime, Shows, Movies](/SSHP/shows.png)](/Games/Home)|
 
 ***
 ## Friends of the Void
