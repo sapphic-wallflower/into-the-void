@@ -13,12 +13,15 @@
 - [Backloggery](https://www.backloggery.com/games.php?user=QueenRaven29&search=Portal)
 
 ## Summary
-I don't have much to say about this game. It's certainly a video game? It was a very short and middling experience.
+My girlfriend, Princess, wanted to watch me play this game. I've put off playing Portal forever, for no real reason. The only reason I'm doing it now, is that I have the very obvious inspiration to do it. Other than the memes, my only engagement with Portal was in Killing Floor, but that was a Portal 2 reference. 
 
-## Gameplay
-It's a puzzle game through and through. Without playing Portal 2, it feels like this is a very long tutorial for that game. You can tell there's some charm there, but it doesn't hit that much.
+## First Impressions
+It's certainly a puzzle game. I don't have much to say about it other than that. It's exactly what I thought a game named "Portal" would be. 
 
-## Difficulty
+## Getting Into It
+Even though I've never played Portal 2, from what I know about it, this seems more like a beta version of that game. It feels like this is the demo of a game you'd get before purchasing the actual game. You can tell there's some charm there, but it doesn't hit that much.
+
+## Final Thoughts
 It feels like a tutorial for another game. All the puzzles feel like they're all extremely easy, and none of them took much thought to complete. The advanced modes should have been what the default game was; those were actually fun and challenging. Most of the difficulty comes in the challenges, which I'll talk about in the completion section.
 
 ## Completion
