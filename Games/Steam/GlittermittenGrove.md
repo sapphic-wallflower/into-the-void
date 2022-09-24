@@ -28,7 +28,7 @@ The "TXT GAME" as it's called was a bit frustrating to me to play alone. I enlis
 A lot of the movement puzzles with the sword got under my skin, and made me increasingly irritated. This is probably more of a personal thing, but I didn't enjoy the puzzles all that much. They irritated me while I was doing them, and I felt relived when I was done with them. I'm not sure if that was happiness for completing them, or happiness that it was finally over. The best part of the game is the ending. The final two parts of the game were enjoyable, and made the entire experience worth it. 
 
 ## Completion
-There isn't a real not to complete it. Playing through the entire game will net you completion, as there are no achievements or special things to unlock. No reasons to playthrough the game again. Short, sweet, easy completionist marker.
+There isn't a real reason not to complete it. Playing through the entire game will net you completion, as there are no achievements or special things to unlock. No reasons to play through the game again. Short, sweet, easy completionist marker.
 
 ***
 Return to: [[Home]](/index) [[Games]](/Games/Home) [[Steam]](/Games/Steam/Home)
