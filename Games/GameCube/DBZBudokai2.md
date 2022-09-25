@@ -16,37 +16,25 @@
 ## Summary
 This was one of the handful of childhood games I put on my backlog to really see to the end, based on how much of a good time I had with them when I was younger. There are tons of ups and downs when it comes to this game. Although I haven't played a lot of fighting games, this is one of the few games I've played that has a unique feeling single player story. Other than that, the longer I played this game, and the longer I went for full completion, the more and more I disliked it. 
 
-## Gameplay
-### **Dragon World** 
-To me, this is the main way to play the game. It's formatted in a board game style, where you can move your piece around the board and attack others. You can also find buffs, capsules, and money above and underground. In my opinion, playing through this once or twice is the best way to experience this game, it's fun to discover where things are and how you combine your teammates to make your character as strong as possible. 
+## First Impressions
+As stated before, I'm no stranger to this game. My first impressions of this game are heavily clouded in nostalgia. While there's a handful of options on the main menu, there are only two ways to play this game. Dragon World, and World Tournament. During my first Dragon World playthrough, I had a great time. A ton of nostalgia and eureka moments seeing what I remember came rushing back to me. Unlocking new abilities via capsules, and unlocking new characters by doing certain things that are in line with the lore of Dragon Ball. 
 
-### **Dueling/Training**
-You most likely won't play these much if you're coming to the game now. They're for playing against your friends, computers, or just practicing against stationary targets. They're pretty useless because the AI for these feel like a beta version of what the game truly plays like. 
+Dragon World is a board game styled format, where you move your characters around the map, and then it drops you into a battle screen. I'm not sure of any other games that do it like this, but this is what really hooked me into the game, as someone who only has played Melee as their fighting game of choice. You can find buffs, capsules, and money above and underground. Something I didn't know about Dragon World as a kid, is that it has difficulties. No wonder I found the game so easy as a kid. They range from way too easy, to make the game extremely unfair. I stuck to the middle option, as there's no reason to play on any of the insane difficulties, other than hating yourself. 
 
-### **World Tournament**
-This is a tournament style mode where you can vs another player as well as computer opponents. It's mostly to grind out money to buy capsules you want from the capsule shop, there isn't a ton of depth to it. 
+## Getting Into It
+Regarding Dragon World after playing it a few times, playing through this once or twice is the best way to experience this game. It's fun to discover where things are and how you combine your teammates to make your character as strong as possible. Once you beat Dragon World once, collecting all the Dragon Balls throughout, you get to make a wish for something special. The usual options are some kind of capsule or outfit, but the first thing everyone gets is an extra mode - Babadi's Spaceship.
 
-### **Capsules**
-You can unlock these while playing through the story mode, or buying them from the capsule shop. They're a nice way to customize your character and get stronger over time. There's some that are hard to unlock, which make your character insanely strong. They're fun to mix and match, finding out which combo is the best, or the most fun to play with. 
+Babadi's Spaceship unlocks four mini-games that you can play to unlock capsules and even some new characters related to Babadi. The mini-games are very... okay. Not the most engaging and won't hold your attention for too long, but a decent addition to the game. I decided to turn on my turbo control and exploit one of the volleyball mini-games, since I've done these hundreds of times as a kid. I never liked them, but 10% of the capsules are locked behind this extra mode.
 
-### **Babadi's Spaceship**
-After beating the story for the first time, and collecting all the Dragon Balls, you get this as an option to wish for. It unlocks four mini-games that you can play to unlock capsules and even some new characters related to Babadi. The mini-games are very... okay. Not the most engaging and won't hold your attention for too long, but a decent addition to the game. 
+## Final Thoughts
+After beating Dragon World a few times, I begin to get bored with that, and tried to get as many capsules as possible using the final game mode I haven't talked about - World Tournament. In this, you get to pick between three difficulties. The higher the difficulty, the more money you get for winning. There's also capsules that you can use to increase your money gain at the sacrifice of not having any abilities. 
 
-### **Nitpicks**
+The tournament itself is an arena style fighting ring, where you need to beat, or knock the other person out of the ring. If you go the full money route, you'll most likely need to knock them out of the ring, since you don't have any capsule abilities. I did this for... many hours, grinding out money. I used that to go to the capsule shop and purchase all the capsules I didn't have. On the topic of capsules...
+
 The game is extremely inconsistent with conveying information. In some modes, you can read what capsules do, while in others, you can't. This is particularly annoying in World Tournament mode, where you need to customize your character each time. Furthermore, while a ton of characters have the same ability, they all do them at different speeds. Some do the ability so slowly, that it can be instantly blocked by the opponent. 
 
-## Difficulty
-### **Easy**
-No idea why this in the game. It turns the whole experience into not a video game, but a poor recreation of the anime.
-
-### **Normal/Hard**
-They both feel the same. It's not a very challenging experience, but I'd recommend playing on hard at most to get a feeling for how the game should be played. 
-
-### **Very Hard / Z / ZZ**
-If you really want to hate yourself, or hate the game, give it a shot. This is where I started to realize it was probably designed to be shovleware. I always wondered why Bandai didn't add Budokai 2 in their Budokai Remaster collector's edition, but I now have a pretty good suspicion. The game is broken, the characters have no balance at all, and the only way to win these modes is to play very safe, only using one or two extremely popular characters. The side characters feel like they were thrown in at the last second, but that would account for all of the characters except four. 
-
 ## Completion
-I strongly advise against attempting this. You have to play through the story mode 42 different times MINIMUM. There's no clear indication of what you missed, so you'll be retracing your steps doing the same thing over and over again with no clear indication of if what you're doing is correct. You should play more than just beating it, but I wouldn't get too crazy with it. At most, beat the game on hard, play the mini-games in Babadi's Spaceship a handful of times, and do a World Tournament on Adept with all of your favorite characters. Don't try to get all the capsules, and certainly don't play the game on Z or ZZ. 
+I strongly advise against attempting this. You have to playthrough the story mode 42 different times MINIMUM. There's no clear indication of what you missed, so you'll be retracing your steps doing the same thing over and over again with no clear indication of if what you're doing is correct. You should play more than just beating it, but I wouldn't get too crazy with it. At most, beat the game on hard, play the mini-games in Babadi's Spaceship a handful of times, and do a World Tournament on Adept with all of your favorite characters. Don't try to get all the capsules, and certainly don't play the game on Z or ZZ. 
 
 ## Media Gallery
 
