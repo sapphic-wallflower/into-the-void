@@ -1,4 +1,4 @@
-# Algernon Cadwallader - [RYM](https://rateyourmusic.com/artist/algernon-cadwallader) | [MusicBrainz](https://musicbrainz.org/artist/47272420-4b41-43cb-a009-a349b9d87f42) | [Bandcamp](https://algernoncadwallader.bandcamp.com/music) | [Discogs](https://www.discogs.com/artist/1438351) | [Website](https://www.algernoncadwallader.com/)
+# Algernon Cadwallader - [[RYM]](https://rateyourmusic.com/artist/algernon-cadwallader) [[MusicBrainz]](https://musicbrainz.org/artist/47272420-4b41-43cb-a009-a349b9d87f42) [[Bandcamp]](https://algernoncadwallader.bandcamp.com/music) [[Discogs]](https://www.discogs.com/artist/1438351) [[Website]](https://www.algernoncadwallader.com/)
 
 ## Albums
 | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes | 
@@ -11,15 +11,10 @@
 ## EPs
 | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
 | ----------- | ---- | --------------------- | --------------- | -------------- | ------------ | --- | ----- |
-| Demo | 2006 | Missing |  |  |  |  |  |
+| Demo | 2006 | Missing |
 | Fun | 2009 | 16bit FLAC 44.1Hz | n/a | n/a | n/a | No | slsk |
 | Listen To | 2009 | Missing |
 | Hot Green EP | 2009 | 320kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
-
-## Singles
-| Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
-| ----------- | ---- | --------------------- | --------------- | -------------- | ------------ | --- | ----- |
-|  |  |  |  |  |  |  |  |
 
 ## Misc.
 | Type | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
