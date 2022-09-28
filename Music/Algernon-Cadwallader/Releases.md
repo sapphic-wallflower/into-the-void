@@ -2,7 +2,7 @@
 
 ## Albums
 | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes | 
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| ----------- | ---- | --------------------- | --------------- | -------------- | ------------ | --- | ----- |
 | Some Kind of Cadwalladar | 2008 | 16bit FLAC 44.1 Hz | n/a | n/a | n/a | No | slsk |
 | What It Is | 2011 | 128kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
 | Parrot Files | 2011 | 16bit FLAC 44.1Hz | n/a | n/a | n/a | No | slsk |
@@ -10,7 +10,7 @@
 
 ## EPs
 | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| ----------- | ---- | --------------------- | --------------- | -------------- | ------------ | --- | ----- |
 | Demo | 2006 | Missing |  |  |  |  |  |
 | Fun | 2009 | 16bit FLAC 44.1Hz | n/a | n/a | n/a | No | slsk |
 | Listen To | 2009 | Missing |
@@ -18,12 +18,12 @@
 
 ## Singles
 | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| ----------- | ---- | --------------------- | --------------- | -------------- | ------------ | --- | ----- |
 |  |  |  |  |  |  |  |  |
 
 ## Misc.
 | Type | Album Title | Year | Container Information | Limited Edition | Deluxe Edition | Bonus Tracks | Log | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|------|-------------|------|-----------------------|-----------------|----------------|--------------|-----|-------|
 | Compilation | Happy Holy Roar Volume 2 | 2008 | Missing | 
 | Compilation | 75:24 | 2009 | Incomplete | 
 | Compilation | Life on an Island Summer Compilation II | 2010 | 320kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
