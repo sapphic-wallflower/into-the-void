@@ -1,16 +1,17 @@
-# Algernon Cadwallader - [[RYM]](https://rateyourmusic.com/artist/algernon-cadwallader) [[MusicBrainz]](https://musicbrainz.org/artist/47272420-4b41-43cb-a009-a349b9d87f42) [[Bandcamp]](https://algernoncadwallader.bandcamp.com/music) [[Discogs]](https://www.discogs.com/artist/1438351) [[Website]](https://www.algernoncadwallader.com/)
+# Algernon Cadwallader
+## [[Rate Your Music]](https://rateyourmusic.com/artist/algernon-cadwallader) [[MusicBrainz]](https://musicbrainz.org/artist/47272420-4b41-43cb-a009-a349b9d87f42) [[Bandcamp]](https://algernoncadwallader.bandcamp.com/music) [[Discogs]](https://www.discogs.com/artist/1438351) [[Website]](https://www.algernoncadwallader.com/)
 
 ## Albums
 <table>
     <tr>
-        <td>Album Title</td>
-        <td>Year</td>
-        <td>Container Information</td>
-        <td>Limited Edition</td>
-        <td>Deluxe Edition</td>
-        <td>Bonus Tracks</td>
-        <td>Log</td>
-        <td>Notes</td>
+        <td><strong>Album Title</strong></td>
+        <td><strong>Year</strong></td>
+        <td><strong>Container Information<s/trong></td>
+        <td><strong>Limited Edition</strong></td>
+        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Bonus Tracks</strong></td>
+        <td><strong>Log</strong></td>
+        <td><strong>Notes</strong></td>
     </tr>
     <tr>
         <td>Some Kind of Cadwalladar</td>
@@ -57,14 +58,14 @@
 ## EPs
 <table>
     <tr>
-        <td>Album Title</td>
-        <td>Year</td>
-        <td>Container Information</td>
-        <td>Limited Edition</td>
-        <td>Deluxe Edition</td>
-        <td>Bonus Tracks</td>
-        <td>Log</td>
-        <td>Notes</td>
+        <td><strong>Album Title</strong></td>
+        <td><strong>Year</strong></td>
+        <td><strong>Container Information<s/trong></td>
+        <td><strong>Limited Edition</strong></td>
+        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Bonus Tracks</strong></td>
+        <td><strong>Log</strong></td>
+        <td><strong>Notes</strong></td>
     </tr>
     <tr>
         <td>Demo</td>
@@ -111,15 +112,14 @@
 ## Misc.
 <table>
     <tr>
-        <td>Type</td>
-        <td>Album Title</td>
-        <td>Year</td>
-        <td>Container Information</td>
-        <td>Limited Edition</td>
-        <td>Deluxe Edition</td>
-        <td>Bonus Tracks</td>
-        <td>Log</td>
-        <td>Notes</td>
+        <td><strong>Album Title</strong></td>
+        <td><strong>Year</strong></td>
+        <td><strong>Container Information<s/trong></td>
+        <td><strong>Limited Edition</strong></td>
+        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Bonus Tracks</strong></td>
+        <td><strong>Log</strong></td>
+        <td><strong>Notes</strong></td>
     </tr>
     <tr>
         <td>Compilation</td>
