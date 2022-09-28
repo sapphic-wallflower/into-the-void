@@ -28,6 +28,6 @@
 | Compilation | 75:24 | 2009 | Incomplete | 
 | Compilation | Life on an Island Summer Compilation II | 2010 | 320kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
 | Split | Summer Singles - 4 Way Split | 2011 |
-| Compilation | Cover Up: A Covers Compilation | 2011 | | 320kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
-| Compilation | Fuck Off All Nerds: A Benefit Compilation In Memory Of Mitch Dubey | 2012 | | 128kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
+| Compilation | Cover Up: A Covers Compilation | 2011 | 320kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
+| Compilation | Fuck Off All Nerds: A Benefit Compilation In Memory Of Mitch Dubey | 2012 | 128kbps MP3 44.1 Hz | n/a | n/a | n/a | No | slsk |
 | Compilation | See You CD & Vinyl Sampler | 2017 | Missing |
