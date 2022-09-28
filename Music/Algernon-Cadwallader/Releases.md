@@ -6,9 +6,9 @@
     <tr>
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
-        <td><strong>Container Information<s/trong></td>
+        <td><strong>Container Information</strong></td>
         <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Deluxe Edition</strong></td>
         <td><strong>Bonus Tracks</strong></td>
         <td><strong>Log</strong></td>
         <td><strong>Notes</strong></td>
@@ -60,9 +60,9 @@
     <tr>
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
-        <td><strong>Container Information<s/trong></td>
+        <td><strong>Container Information</strong></td>
         <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Deluxe Edition</strong></td>
         <td><strong>Bonus Tracks</strong></td>
         <td><strong>Log</strong></td>
         <td><strong>Notes</strong></td>
@@ -112,11 +112,12 @@
 ## Misc.
 <table>
     <tr>
+        <td><strong>Type</strong></td>
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
-        <td><strong>Container Information<s/trong></td>
+        <td><strong>Container Information</strong></td>
         <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition<s/trong></td>
+        <td><strong>Deluxe Edition</strong></td>
         <td><strong>Bonus Tracks</strong></td>
         <td><strong>Log</strong></td>
         <td><strong>Notes</strong></td>
