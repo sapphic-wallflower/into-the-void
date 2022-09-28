@@ -6,7 +6,7 @@
 
 | | | | |
 |-|-|-|-|
-|[![Video Games](/SSHP/videogames.png)](/Games/Home)|![Music](/SSHP/music.png)|![Anime, Shows, Movies](/SSHP/shows.png)|[![Miscellaneous](/SSHP/misc.png)](/SSHP/index)|
+|[![Video Games](/SSHP/videogames.png)](/Games/Home)|[![Music](/SSHP/music.png)](/Music/Home)|![Anime, Shows, Movies](/SSHP/shows.png)|[![Miscellaneous](/SSHP/misc.png)](/SSHP/index)|
 
 
 ***
