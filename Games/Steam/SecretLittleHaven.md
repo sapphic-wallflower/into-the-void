@@ -4,7 +4,7 @@
 
 ## General Information
 
-- Platform: Steam
+- Platform: [Steam](https://steamcommunity.com/id/queenofthevoid/recommended/827290/)
 - Ownership: Owned
 - Played Time: 10.6 hours (to complete)
     - Time to beat: 2 hours, 31 minutes.
