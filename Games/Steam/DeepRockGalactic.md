@@ -3,7 +3,7 @@
 ![](./Assets/DRGSteamMenu.png)
 
 ## General Information
-- Platform: Steam
+- Platform: [Steam](https://steamcommunity.com/id/queenofthevoid/recommended/548430/)
 - Ownership: Owned
 - Played Time: 389 hours (for all achievements), 860 hours (overall, and counting!)
 	- Time to beat: n/a
