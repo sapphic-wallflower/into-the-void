@@ -12,7 +12,7 @@
         <td><strong>Notes</strong></td>
     </tr>
     <tr>
-        <td><a href="a-somekind.md">Some Kind of Cadwalladar</a></td>
+        <td><a href="a-somekind">Some Kind of Cadwalladar</a></td>
         <td>2008</td>
         <td>16bit FLAC 44.1 Hz</td>
         <td>n/a</td>
