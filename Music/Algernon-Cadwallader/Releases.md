@@ -7,51 +7,41 @@
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
-        <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition</strong></td>
-        <td><strong>Bonus Tracks</strong></td>
-        <td><strong>Log</strong></td>
+        <td><strong>Extra Tracks</strong></td>
+        <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
     <tr>
-        <td>Some Kind of Cadwalladar</td>
+        <td><a href="a-somekind.md">Some Kind of Cadwalladar</a></td>
         <td>2008</td>
         <td>16bit FLAC 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>What It Is</td>
         <td>2011</td>
         <td>128kbps MP3 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Parrot Files</td>
         <td>2011</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Algernon Cadwallader</td>
         <td>2018</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
 </table>
 
@@ -61,10 +51,8 @@
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
-        <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition</strong></td>
-        <td><strong>Bonus Tracks</strong></td>
-        <td><strong>Log</strong></td>
+        <td><strong>Extra Tracks</strong></td>
+        <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
     <tr>
@@ -74,25 +62,19 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Fun</td>
         <td>2009</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Listen To</td>
         <td>2009</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -102,10 +84,8 @@
         <td>2009</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
 </table>
 
@@ -116,10 +96,8 @@
         <td><strong>Album Title</strong></td>
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
-        <td><strong>Limited Edition</strong></td>
-        <td><strong>Deluxe Edition</strong></td>
-        <td><strong>Bonus Tracks</strong></td>
-        <td><strong>Log</strong></td>
+        <td><strong>Extra Tracks</strong></td>
+        <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
     <tr>
@@ -127,8 +105,6 @@
         <td>Happy Holy Roar Volume 2</td>
         <td>2008</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -141,8 +117,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Compilation</td>
@@ -150,17 +124,13 @@
         <td>2010</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Split</td>
         <td>Summer Singles - 4 Way Split</td>
         <td>2011</td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -172,10 +142,8 @@
         <td>2011</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Compilation</td>
@@ -183,10 +151,8 @@
         <td>2012</td>
         <td>128kbps MP3 44.1 Hz</td>
         <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>No</td>
-        <td>slsk</td>
+        <td>TBD</td>
+        <td>slsk, no log</td>
     </tr>
     <tr>
         <td>Compilation</td>
@@ -196,7 +162,8 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
     </tr>
 </table>
+
+***
+ Return to: [[Home]](/index) [[Music]](/Music/Home)
