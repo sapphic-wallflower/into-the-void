@@ -8,6 +8,7 @@
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
         <td><strong>Extra Tracks</strong></td>
+        <td><strong>Physical Copy</strong</td>
         <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
@@ -16,6 +17,7 @@
         <td>2008</td>
         <td>16bit FLAC 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -24,6 +26,7 @@
         <td>2011</td>
         <td>128kbps MP3 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -32,6 +35,7 @@
         <td>2011</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -40,6 +44,7 @@
         <td>2018</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -52,6 +57,7 @@
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
         <td><strong>Extra Tracks</strong></td>
+        <td><strong>Physical Copy</strong</td>
         <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
@@ -59,8 +65,9 @@
         <td>Demo</td>
         <td>2006</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
     <tr>
@@ -68,6 +75,7 @@
         <td>2009</td>
         <td>16bit FLAC 44.1Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -75,8 +83,9 @@
         <td>Listen To</td>
         <td>2009</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
     <tr>
@@ -84,6 +93,7 @@
         <td>2009</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -97,6 +107,7 @@
         <td><strong>Year</strong></td>
         <td><strong>Container Information</strong></td>
         <td><strong>Extra Tracks</strong></td>
+        <td><strong>Physical Copy</strong</td>
         <td><strong>Rating</strong></td>
         <td><strong>Notes</strong></td>
     </tr>
@@ -105,8 +116,9 @@
         <td>Happy Holy Roar Volume 2</td>
         <td>2008</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
     <tr>
@@ -114,8 +126,9 @@
         <td>75:24</td>
         <td>2009</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
     <tr>
@@ -124,6 +137,7 @@
         <td>2010</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -132,8 +146,9 @@
         <td>Summer Singles - 4 Way Split</td>
         <td>2011</td>
         <td></td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
     <tr>
@@ -142,6 +157,7 @@
         <td>2011</td>
         <td>320kbps MP3 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -151,6 +167,7 @@
         <td>2012</td>
         <td>128kbps MP3 44.1 Hz</td>
         <td>n/a</td>
+        <td>Unowned</td>
         <td>TBD</td>
         <td>slsk, no log</td>
     </tr>
@@ -159,8 +176,9 @@
         <td>See You CD &amp; Vinyl Sampler</td>
         <td>2017</td>
         <td>Missing</td>
-        <td></td>
-        <td></td>
+        <td>n/a</td>
+        <td>Unowned</td>
+        <td>TBD</td>
         <td></td>
     </tr>
 </table>
