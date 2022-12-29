@@ -3,4 +3,4 @@
 - New Super Mario Bros. Wii Coming soon...
 
 ***
-Return to: [[Home]](/index) [[Games]](/Games/Home)
+<!-- Return to: [[Home]](/index) [[Games]](/Games/Home) -->

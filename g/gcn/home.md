@@ -1,6 +1,6 @@
 # GameCube Homepage
 
-- [Dragon Ball Z: Budokai 2](/Games/GameCube/DBZBudokai2) Completed: 2022-04-13
+<!-- - [Dragon Ball Z: Budokai 2](/Games/GameCube/DBZBudokai2) Completed: 2022-04-13 -->
 - Kirby Air Ride Coming soon...
 - Luigi's Mansion Coming soon...
 - Mario Party 7 Coming soon...
@@ -8,4 +8,4 @@
 - Tony Hawk's American Wasteland Coming soon...
 
 ***
-Return to: [[Homepage]](/index) [[Games]](/Games/Home)
+<!-- Return to: [[Homepage]](/index) - [[Games]](/Games/Home) -->
