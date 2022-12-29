@@ -1,63 +1,63 @@
 /* This CSS will define the general style for global elements */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0;
+}
+
 /* 1. Start Navigation Bar */
 
-/* 1.1 Navigation Bar Styling */
 .navbar {
-    overflow:hidden;
-    background-color: grey;
+    height: 40px;
     width: 800px;
+    margin-bottom: 15px;
+    border-radius: 0 0 10px 10px;
+    background-color: #333;
+    box-shadow: 0 2px 0 #000;
+    margin: auto;
 }
-
-    .navbar a {
-        float: left;
-        padding: 14px 25px;
-        color:white;
-        text-decoration: none;
+    .navbar ul{
+        text-align: center;
+        height: 40px;
+        margin: 0 0 0 15px;
+        display: table;
+    }
+        .navbar ul li{
+            position: relative;
+            list-style: none;
+            float: left;
         }
-
-/* 1.2 Dropdown Styling */
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-    .dropdown .dropdown-button {
-        font-size: inherit;  
-        color: white;
-        border: none;
-        outline: none;
-        padding: 14px 25px;
-        background-color: inherit;
-        margin: 0;
-    }
-
-.navbar a:hover, .dropdown:hover .dropdown-button {
-    background-color: red;
-    }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      
-      .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-      
-      .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+            .navbar ul li:hover ul{
+                visibility:visible;
+                z-index: 2000;
+            }
+            .navbar li a{
+                font-size: 12px;
+                display: block;
+                line-height: 40px;
+                padding: 0 25px;
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+               .navbar li:hover, .navbar ul li a:hover{
+               	border: none;
+               	background: #222;
+               }
+               .navbar ul li ul{
+                    margin: 0;
+                    width: 200px;
+               	    background: #222;
+                    position: absolute;
+                    top: 40px;
+                    visibility: hidden;
+               	    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+               }
+                    .navbar ul li ul li{ width: 100%; }
+                    .navbar ul li ul li a{ line-height: 40px; height: 40px; }
+                    .navbar ul li ul li a:hover{ background: #000; }
+                    .navbar ul li ul li:last-child a:hover, .navbar ul li ul li:last-child:hover{
+                    	border-radius: 0 0 10px 10px;
+                    }
