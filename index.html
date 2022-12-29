@@ -22,8 +22,17 @@
 <div id="header">
      <nav>
           <ul>
-               <li><a href="/">Home</a></li>
-               <li><a href="/g/home">Video Games</a></li>
+               <li><a href="/" onclick="touchTest(this)">Main</a></li>
+               <li><a href="queenraven29" onclick="touchTest(this)">My Backlog</a>
+                      <ul>
+                         <li><a href="/g/gba/home">Gameboy Advanced</a></li>
+                         <li><a href="/g/gcn/home">Gamecube</a></li>
+                         <li><a href="/g/linux/home">Linux</a></li>
+                         <li><a href="/g/steam/home">Steam</a></li>
+                         <li><a href="/g/wii/home">Wii</a></li>
+                    </ul>
+               </li>
+               <li><a href="games.php?user=queenraven29" onclick="touchTest(this)">My Games</a>
                     <ul>
                          <li><a href="/g/gba/home">Gameboy Advanced</a></li>
                          <li><a href="/g/gcn/home">Gamecube</a></li>
@@ -31,16 +40,19 @@
                          <li><a href="/g/steam/home">Steam</a></li>
                          <li><a href="/g/wii/home">Wii</a></li>
                     </ul>
-               <li><a href="/mu/home">Music</a></li>
-               <li>Media</li>
+               </li>
+               <li><a href="multitap.php?user=queenraven29" onclick="touchTest(this)">Multitap</a>
                     <ul>
-                         <li>Anime</li>
-                         <li>Movies</li>
-                         <li>Television</li>
+                         <li><a href="/g/gba/home">Gameboy Advanced</a></li>
+                         <li><a href="/g/gcn/home">Gamecube</a></li>
+                         <li><a href="/g/linux/home">Linux</a></li>
+                         <li><a href="/g/steam/home">Steam</a></li>
+                         <li><a href="/g/wii/home">Wii</a></li>
                     </ul>
-               <li>Movies</li>
-               <li><a href="/misc/home">Misc.</a></li>
-          </ul>
+               </li>
+               <li><a href="donate.php">Support Us</a></li>
+               
+                              </ul>               
      </nav>
 </div>
 <!-- End the navigation bar. -->

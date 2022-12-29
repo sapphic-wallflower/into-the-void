@@ -5,25 +5,62 @@
      outline: 0;
      padding: 0;
      text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #header {
-    margin: auto;
-    height: 40px;
-    width: 800px;
-    position: static;
-    border-style:solid;
-    border-width:4px;
-    border-color:red;
+     margin: auto;
+     height: 40px;
+     width: 800px;
+     margin-bottom: 15px;
+     border-radius: 0 0 10px 10px;
+     background-color: green;
+     background-image: -moz-linear-gradient(top, #900, #333);
+     background-image: -o-linear-gradient(top, #900, #600);
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#900), to(#600));
+     box-shadow: 0 2px 0 #000;
 }
-    #header ul {
-         list-style: none;
+    #header ul{
+        text-align: center;
+        height: 40px;
+        margin: 0 0 0 15px;
+        display: table;
     }
-         #header li {
-              z-index: auto;
-         }
-              #header ul li {
-                   z-index: auto;
-              }
+        #header ul li{
+            position: relative;
+            list-style: none;
+            float: left;
+        }
+            #header ul li:hover ul{
+                visibility:visible;
+                z-index: 2000;
+            }
+            #header li a{
+                font-size: 12px;
+                display: block;
+                line-height: 40px;
+                padding: 0 25px;
+                color: #fff;
+                font-weight: bold;
+            }
+               #header li:hover, #menu ul li a:hover{
+               	border: none;
+               	background: #222;
+               }
+               #header ul li ul{
+                    margin: 0;
+                    width: 200px;
+               	    background: #222;
+                    position: absolute;
+                    top: 40px;
+                    visibility: hidden;
+               	    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+               }
+                    #header ul li ul li{ width: 100%; }
+                    #header ul li ul li a{ line-height: 40px; height: 40px; }
+                    #header ul li ul li a:hover{ background: #000; }
+                    #header ul li ul li:last-child a:hover, #menu ul li ul li:last-child:hover{
+                    	border-radius: 0 0 10px 10px;
+                    }
 
 #footer {
     margin: auto;
