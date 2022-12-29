@@ -19,41 +19,22 @@
 <p style="text-align: center;">I'm currently transitioning from Markdown to HTML. Good luck!</p>
 
 <!-- Begin the navigation bar. -->
-<div id="header">
-     <nav>
-          <ul>
-               <li><a href="/" onclick="touchTest(this)">Main</a></li>
-               <li><a href="queenraven29" onclick="touchTest(this)">My Backlog</a>
-                      <ul>
-                         <li><a href="/g/gba/home">Gameboy Advanced</a></li>
-                         <li><a href="/g/gcn/home">Gamecube</a></li>
-                         <li><a href="/g/linux/home">Linux</a></li>
-                         <li><a href="/g/steam/home">Steam</a></li>
-                         <li><a href="/g/wii/home">Wii</a></li>
-                    </ul>
-               </li>
-               <li><a href="games.php?user=queenraven29" onclick="touchTest(this)">My Games</a>
-                    <ul>
-                         <li><a href="/g/gba/home">Gameboy Advanced</a></li>
-                         <li><a href="/g/gcn/home">Gamecube</a></li>
-                         <li><a href="/g/linux/home">Linux</a></li>
-                         <li><a href="/g/steam/home">Steam</a></li>
-                         <li><a href="/g/wii/home">Wii</a></li>
-                    </ul>
-               </li>
-               <li><a href="multitap.php?user=queenraven29" onclick="touchTest(this)">Multitap</a>
-                    <ul>
-                         <li><a href="/g/gba/home">Gameboy Advanced</a></li>
-                         <li><a href="/g/gcn/home">Gamecube</a></li>
-                         <li><a href="/g/linux/home">Linux</a></li>
-                         <li><a href="/g/steam/home">Steam</a></li>
-                         <li><a href="/g/wii/home">Wii</a></li>
-                    </ul>
-               </li>
-               <li><a href="donate.php">Support Us</a></li>
-               
-                              </ul>               
-     </nav>
+<div class="navbar">
+     <a href="/">
+          <img src="/misc/webring-button.gif" alt="webring gif">
+     </a>
+     <!-- Begin dropdown options.-->
+     <div class="dropdown">
+          <button class="dropdown-button">Video Games</button>
+               <div class="dropdown-content">
+                    <a href="/g/gba/home">Gameboy Advanced</a>
+                    <a href="/g/gcn/home">Gamecube</a>
+                    <a href="/g/linux/home">Linux PC</a>
+                    <a href="/g/steam/home">Steam PC</a>
+                    <a href="/g/wii/home">Wii</a>
+               </div>
+     <!-- End dropdown options. -->
+     </div>
 </div>
 <!-- End the navigation bar. -->
 
