@@ -1,9 +1,0 @@
-remote_theme: pages-themes/hacker
-title: Void's Archive
-author:
-  name: 
-  email: 
-description: > # this means to ignore newlines until "show_excerpts:"
-  Void's thoughts on the media we surround ourselves with.
-normalize: true
-darkmode: true

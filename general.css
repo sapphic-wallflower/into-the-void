@@ -1,8 +1,15 @@
 /* Navigation header on all pages */
-
+*{
+     border: 0;
+     margin: 0;
+     outline: 0;
+     padding: 0;
+     text-decoration: none;
+}
 #header {
     margin: auto;
     height: 40px;
+    width: 800px;
     position: static;
     border-style:solid;
     border-width:4px;
@@ -17,3 +24,13 @@
               #header ul li {
                    z-index: auto;
               }
+
+#footer {
+    margin: auto;
+    height: 40px;
+    position: static;
+    border-style:solid;
+    border-width:4px;
+    border-color:red;
+    color:green;
+}
