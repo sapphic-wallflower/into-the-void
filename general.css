@@ -18,7 +18,7 @@
     margin-bottom: 10px;
     margin-left: auto;
     border-radius: 50px 50px 50px 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: #2696CB;
 }
     .navbar ul{
         text-align: center;
@@ -49,11 +49,11 @@
             }
                .navbar li:hover, .navbar ul li a:hover{
                	border: none;
-               	background: rgb(34, 34, 34);
+               	background: #7DD1F5;
                }
                .navbar ul li ul{
                     width: 200px;
-               	    background: #222;
+               	    background: #2696CB;
                     position: absolute;
                     top: 40px;
                     visibility: hidden;
@@ -63,4 +63,4 @@
                         margin: auto;
                      }
                     .navbar ul li ul li a{ line-height: 40px; height: 40px; }
-                    .navbar ul li ul li a:hover{ background: rgb(0, 0, 0); }
+                    .navbar ul li ul li a:hover{ background: #7DD1F5; }
