@@ -1,4 +1,5 @@
-/* This CSS will define the general style for global elements. */
+/* This is an archive of old versions of the website. 
+This page was archived on 2022-12-31 */
 
 /* 0. Default styling acorss all general pages. */
 * {
@@ -6,12 +7,6 @@
     padding: 0; 
     border: 0; 
     outline: 0;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* 1. Start Navigation Bar */
