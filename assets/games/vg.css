@@ -10,6 +10,9 @@
     margin: 0 25% 0 25%;
     color: white;
 }
+      .body-text h2 {
+            margin-top: 5%;
+      }
 
 /* 2. Centres the banner at the top of the screen, and gives it a 25 pixel padding on the south side. */
 .banner-img {
