@@ -1,0 +1,97 @@
+/* CSS relating to entire page */
+.container {
+  color: white;
+ /* Applies text colour to all text. */
+  margin: auto;
+ /* Centres content. */
+  max-width: 1000px;
+ /* Limits content to 1000 pixels */
+}
+body {
+  background-color: rgb(47, 50, 79);
+ /* Applies a colour to background. */
+}
+.flex {
+  display: flex;
+ /* Main and nav boxes horizontal rather than vertical. */
+}
+/* CSS relating to banner images */
+.banner {
+  background-image: url("./void-banner.png");
+ /* Applies image. */
+  height: 128px;
+ /* Limits height to 128 pixels. */
+  margin-bottom: 10px;
+ /* Adds 10 pixel space to bottom of element. */
+}
+/* CSS relating to main box content */
+main {
+  width: 75%;
+ /* Limits main boxes to 75% width */
+}
+.content-title {
+  background-color: #161b22;
+ /* Applies a colour to background of box. */
+}
+.content-title h2 {
+  margin: 0px;
+ /* Removes default margin. */
+  padding: 5px 0px 0px 50px;
+ /* Moves 5 pixels down, and 50 pixels right */
+}
+.content-box {
+  background-color: darkred;
+ /* Applies a colour to background of box. */
+  padding: 5px 5px 5px 10px;
+ /* Moves elemants inward. */
+  margin-bottom: 10px;
+ /* Adds 10 pixel space to bottom of element. */
+  margin-top: 0px;
+}
+/* CSS relating to navigation bar */
+aside {
+  width: 25%;
+ /* Limits nav bar to 25% width */
+}
+.nav-title {
+  background-color: #161b22;
+ /* Applies a colour to background of box. */
+  margin-left: 10px;
+ /* Moves 10 pixels from main. */
+}
+.nav-title h2 {
+  margin: 0px;
+ /* Removes default margin. */
+  padding: 5px 0px 0px 50px;
+ /* Moves 5 pixels down, and 50 pixels right */
+}
+.nav-box {
+  background-color: darkred;
+ /* Applies a colour to background of box. */
+  padding: 5px 5px 5px 0px;
+ /* Moves elemants inward. */
+  margin-left: 10px;
+ /* Moves 10 pixels from main. */
+  margin-bottom: 10px;
+ /* Adds 10 pixel space to bottom of element. */
+  position: sticky;
+}
+/* CSS relating to footer */
+footer {
+  background-color: darkred;
+ /* Applies a colour to background of box. */
+  height: 20px;
+ /* Limits footer to 20 pixles */
+}
+footer p {
+  margin: 0px;
+ /* Removes default margin. */
+  text-align: center;
+ /* Centres content. */
+  padding: 2px;
+ /* Moves content inward. */
+}
+footer a {
+  text-decoration: none;
+ /* Removes underline from link. */
+}
