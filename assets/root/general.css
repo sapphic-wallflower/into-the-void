@@ -8,7 +8,7 @@
  /* Limits content to 1000 pixels */
 }
 body {
-  background-color: rgb(47, 50, 79);
+  background-color: black;
  /* Applies a colour to background. */
 }
 .flex {
@@ -47,6 +47,9 @@ main {
   margin-bottom: 10px;
  /* Adds 10 pixel space to bottom of element. */
   margin-top: 0px;
+}
+.content-box h3 {
+  text-decoration-line: underline;
 }
 /* CSS relating to navigation bar */
 aside {
