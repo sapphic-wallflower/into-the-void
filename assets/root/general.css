@@ -10,7 +10,7 @@
 a {
   text-decoration: none;
  /* Removes underline from link. */
-  color:black;
+  color: #f5c211;
 }
 a:hover {
   text-decoration: none;
