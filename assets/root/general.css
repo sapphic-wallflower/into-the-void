@@ -7,6 +7,11 @@
   max-width: 1000px;
  /* Limits content to 1000 pixels */
 }
+a {
+  text-decoration: none;
+ /* Removes underline from link. */
+  color:black;
+}
 body {
   background-color: black;
  /* Applies a colour to background. */
@@ -40,7 +45,7 @@ main {
  /* Moves 5 pixels down, and 50 pixels right */
 }
 .content-box {
-  background-color: darkred;
+  background-color: rgb(117, 0, 0);
  /* Applies a colour to background of box. */
   padding: 5px 5px 5px 10px;
  /* Moves elemants inward. */
@@ -69,9 +74,9 @@ aside {
  /* Moves 5 pixels down, and 50 pixels right */
 }
 .nav-box {
-  background-color: darkred;
+  background-color: rgb(117, 0, 0);
  /* Applies a colour to background of box. */
-  padding: 5px 5px 5px 0px;
+  padding: 5px 5px 10px 0px;
  /* Moves elemants inward. */
   margin-left: 10px;
  /* Moves 10 pixels from main. */
@@ -79,9 +84,14 @@ aside {
  /* Adds 10 pixel space to bottom of element. */
   position: sticky;
 }
+.nav-box ul {
+  list-style-image: url("./heart.png");
+  padding-left: 30px;
+  margin-left: 0px;
+}
 /* CSS relating to footer */
 footer {
-  background-color: darkred;
+  background-color: rgb(117, 0, 0);
  /* Applies a colour to background of box. */
   height: 20px;
  /* Limits footer to 20 pixles */
@@ -91,8 +101,4 @@ footer p {
  /* Removes default margin. */
   text-align: center;
  /* Centres content. */
-}
-footer a {
-  text-decoration: none;
- /* Removes underline from link. */
 }
