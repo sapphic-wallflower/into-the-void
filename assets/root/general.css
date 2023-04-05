@@ -12,6 +12,11 @@ a {
  /* Removes underline from link. */
   color:black;
 }
+a:hover {
+  text-decoration: none;
+ /* Removes underline from link. */
+  color:blue;
+}
 body {
   background-color: black;
  /* Applies a colour to background. */
@@ -87,7 +92,6 @@ aside {
 .nav-box ul {
   list-style-image: url("./heart.png");
   padding-left: 30px;
-  margin-left: 0px;
 }
 /* CSS relating to footer */
 footer {
