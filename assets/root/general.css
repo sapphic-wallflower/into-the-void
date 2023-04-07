@@ -59,7 +59,7 @@ main {
   margin-top: 0px;
 }
 .content-box h3 {
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
 /* CSS relating to navigation bar */
 aside {
