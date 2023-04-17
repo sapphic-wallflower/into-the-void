@@ -7,24 +7,29 @@
   max-width: 1000px;
  /* Limits content to 1000 pixels */
 }
+
 a {
   text-decoration: none;
  /* Removes underline from link. */
   color: #f5c211;
 }
+
 a:hover {
   text-decoration: none;
  /* Removes underline from link. */
   color:blue;
 }
+
 body {
   background-color: black;
  /* Applies a colour to background. */
 }
+
 .flex {
   display: flex;
  /* Main and nav boxes horizontal rather than vertical. */
 }
+
 /* CSS relating to banner images */
 .banner {
   background-image: url("./void-banner.png");
@@ -34,21 +39,25 @@ body {
   margin-bottom: 10px;
  /* Adds 10 pixel space to bottom of element. */
 }
+
 /* CSS relating to main box content */
 main {
   width: 75%;
  /* Limits main boxes to 75% width */
 }
+
 .content-title {
   background-color: #161b22;
  /* Applies a colour to background of box. */
 }
+
 .content-title h2 {
   margin: 0px;
  /* Removes default margin. */
   padding: 5px 0px 0px 50px;
  /* Moves 5 pixels down, and 50 pixels right */
 }
+
 .content-box {
   background-color: rgb(117, 0, 0);
  /* Applies a colour to background of box. */
@@ -58,29 +67,35 @@ main {
  /* Adds 10 pixel space to bottom of element. */
   margin-top: 0px;
 }
+
 .content-box h3 {
   margin: 10px 0px 0px 0px;
 }
+
 .content-box h4 {
   margin: 0;
 }
+
 /* CSS relating to navigation bar */
 aside {
   width: 25%;
  /* Limits nav bar to 25% width */
 }
+
 .nav-title {
   background-color: #161b22;
  /* Applies a colour to background of box. */
   margin-left: 10px;
  /* Moves 10 pixels from main. */
 }
+
 .nav-title h2 {
   margin: 0px;
  /* Removes default margin. */
   padding: 5px 0px 0px 50px;
  /* Moves 5 pixels down, and 50 pixels right */
 }
+
 .nav-box {
   background-color: rgb(117, 0, 0);
  /* Applies a colour to background of box. */
@@ -92,10 +107,12 @@ aside {
  /* Adds 10 pixel space to bottom of element. */
   position: sticky;
 }
+
 .nav-box ul {
   list-style-image: url("./heart.png");
   padding-left: 30px;
 }
+
 /* CSS relating to footer */
 footer {
   background-color: rgb(117, 0, 0);
@@ -103,9 +120,42 @@ footer {
   height: 20px;
  /* Limits footer to 20 pixles */
 }
+
 footer p {
   margin: 0px;
  /* Removes default margin. */
   text-align: center;
  /* Centres content. */
+}
+
+/* CSS relating to the image gallery */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-image {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
 }
