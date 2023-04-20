@@ -1,34 +1,28 @@
-const galleryImages = document.querySelectorAll('.gallery-image');
-const modal = document.getElementById('modal');
-const modalImage = document.getElementById('modal-image');
-
-function closeModal() {
-  modal.style.display = 'none';
-}
-
-function openModal(imageSrc) {
-  modal.style.display = 'flex';
-  modalImage.src = imageSrc;
-}
+const galleryImages = document.querySelectorAll('.gallery img');
+const lightbox = document.querySelector('.lightbox');
+const lightboxImage = document.querySelector('.lightbox-image');
+const closeButton = document.querySelector('.close-button');
 
 galleryImages.forEach(image => {
   image.addEventListener('click', () => {
-    if (modal.style.display === 'flex') {
-      closeModal();
-    } else {
-      openModal(image.src);
-    }
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt;
+    lightbox.style.opacity = 1;
+    lightbox.style.pointerEvents = 'auto';
+    document.body.style.overflow = 'hidden';
   });
 });
 
-modal.addEventListener('click', (event) => {
-  if (event.target === modal) {
-    closeModal();
-  }
+closeButton.addEventListener('click', () => {
+  lightbox.style.opacity = 0;
+  lightbox.style.pointerEvents = 'none';
+  document.body.style.overflow = 'auto';
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && modal.style.display === 'flex') {
-    closeModal();
+  if (event.key === 'Escape') {
+    lightbox.style.opacity = 0;
+    lightbox.style.pointerEvents = 'none';
+    document.body.style.overflow = 'auto';
   }
 });
