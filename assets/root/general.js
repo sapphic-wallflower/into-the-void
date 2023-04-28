@@ -1,28 +1,24 @@
-const galleryImages = document.querySelectorAll('.gallery img');
+const gallery = document.querySelector('.gallery');
+const images = gallery.querySelectorAll('img');
 const lightbox = document.querySelector('.lightbox');
-const lightboxImage = document.querySelector('.lightbox-image');
+const lightboxImg = lightbox.querySelector('img');
+const lightboxDesc = lightbox.querySelector('.description');
 const closeButton = document.querySelector('.close-button');
 
-galleryImages.forEach(image => {
-  image.addEventListener('click', () => {
-    lightboxImage.src = image.src;
-    lightboxImage.alt = image.alt;
-    lightbox.style.opacity = 1;
-    lightbox.style.pointerEvents = 'auto';
-    document.body.style.overflow = 'hidden';
-  });
+function showImage(event) {
+  lightboxImg.src = event.target.src;
+  lightboxDesc.textContent = event.target.alt;
+  lightbox.classList.add('show');
+}
+
+function closeImage(event) {
+  if (event.type === 'keydown' && event.keyCode !== 27) return;
+  lightbox.classList.remove('show');
+}
+
+images.forEach(image => {
+  image.addEventListener('click', showImage);
 });
 
-closeButton.addEventListener('click', () => {
-  lightbox.style.opacity = 0;
-  lightbox.style.pointerEvents = 'none';
-  document.body.style.overflow = 'auto';
-});
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    lightbox.style.opacity = 0;
-    lightbox.style.pointerEvents = 'none';
-    document.body.style.overflow = 'auto';
-  }
-});
+closeButton.addEventListener('click', closeImage);
+document.addEventListener('keydown', closeImage);
