@@ -68,6 +68,11 @@ main {
   margin-top: 0px;
 }
 
+.content-box img {
+  max-width: 100%;
+ /* Stops the image from going out of the box */
+}
+
 .content-box h3 {
   margin: 10px 0px 0px 0px;
 }
