@@ -27,7 +27,7 @@ document.addEventListener('keydown', e => {
 // Image gallery two
 const gallery1 = document.querySelector('.gallery1');
 const lightbox1 = document.querySelector('.lightbox1');
-const lightboxImage1 = lightbox1.querySelector('img');
+const lightbox1Image = lightbox1.querySelector('img');
 const altText1 = lightbox1.querySelector('.alt-text1');
 
 gallery1.addEventListener('click', e => {
@@ -53,7 +53,7 @@ document.addEventListener('keydown', e => {
 // Image gallery three
 const gallery2 = document.querySelector('.gallery2');
 const lightbox2 = document.querySelector('.lightbox2');
-const lightboxImage2 = lightbox2.querySelector('img');
+const lightbox2Image = lightbox2.querySelector('img');
 const altText2 = lightbox2.querySelector('.alt-text2');
 
 gallery2.addEventListener('click', e => {
