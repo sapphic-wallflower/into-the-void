@@ -56,7 +56,7 @@ const lightbox2 = document.querySelector('.lightbox2');
 const lightboxImage2 = lightbox2.querySelector('img');
 const altText2 = lightbox2.querySelector('.alt-text2');
 
-gallery.addEventListener('click', e => {
+gallery2.addEventListener('click', e => {
   if (e.target.tagName === 'IMG') {
     lightbox2.classList.add('active');
     lightbox2Image.src = e.target.src;
