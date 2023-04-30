@@ -30,7 +30,7 @@ body {
  /* Main and nav boxes horizontal rather than vertical. */
 }
 
-/* CSS relating to banner images */
+/* Banner image */
 .banner {
   background-image: url("./void-banner.png");
  /* Applies image. */
