@@ -1,35 +1,159 @@
 <!DOCTYPE html>
 <html>
+
+<!------------------------------ Header ------------------------------>
 <head>
     <link rel="browser tab icon" type="image/x-icon" href="../assets/root/favicon.ico">
-    <link rel="main stylesheet" href="">
-     <meta charset="UTF-8">
-     <meta name="author" content="Voidgazer">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=0.38">
-     <title>Into The Void | Cooking</title>
+    <link rel="main stylesheet" href="../assets/root/general.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Voidgazer">
+    <meta name="keywords" content="recepies">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Void's Recepies</title>
+    <meta name="description" content="Void's archive of recepies they frequently make. Recepie websites are often filled with ads, and nothing related to the dish attempting to be made.">
+
+    <meta property="og:title" content="Void's Recepies">
+    <meta name="og:description" content="Void's archive of recepies they frequently make. Recepie websites are often filled with ads, and nothing related to the dish attempting to be made.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.sapphic.dog/assets/root/favicon.ico">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
 </head>
 
-<!-- Above is head content, below is body content. -->
+<style>
+.centreButtons {
+    display: flex;
+    justify-content: center; 
+}
 
+.centreButtons button {
+    margin: 0 5px;
+}
+
+</style>
+
+<!------------------------------ Begin ------------------------------>
 <body>
-<img src="../assets/root/index-banner.png">
+    <div class="container">
+        <div class="banner"></div>
+            <div class="flex">
 
-<h1>Recepies</h1>
-<h2>Breakfast</h2>
-    <a href="./banana-spinach-matcha-smoothie">Banana Spinach Matcha Smoothie</a><br>
+<!------------------------------ Box 1 ------------------------------>
+<main>
+    <div class="content-title">
+        <h2>Meal Time</h2>
+    </div>
+    
+    <div class="content-box">
+    <div class="centreButtons">
+        <button onclick="showAllSections()">All</button>
+        <button onclick="showSection('breakfast')">Breakfast</button>
+        <button onclick="showSection('lunch')">Lunch</button>
+        <button onclick="showSection('dinner')">Dinner</button>
+        <button onclick="showSection('dessert')">Dessert</button>
+    </div>
+    </div>
 
-<h2>Lunch</h2>
-    <a href="./green-goddess-salad">Green Goddess Salad</a><br>
+<!------------------------------ Box 2 ------------------------------>
+    <section id="breakfastSection" style="display: none;">
+        <div class="content-title">
+            <h2>Breakfast</h2>
+        </div>
 
-<h2>Lunch OR Dinner</h2>
-    <a href="./black-bean-sweet-potato">Black Bean Stuffed Sweet Potato</a><br>
-    <a href="./sausage-cabbage-soup">Sausage Cabbage Soup</a><br>
-    <a href="./black-bean-corn-quesadilla">Black Bean and Corn Quesadillas</a><br>
-    <a href="./tofu-nuggets">Tofu Nuggets</a><br>
+        <div class="content-box">
+            <ul>
+                <li><a href="./banana-spinach-matcha-smoothie">Banana Spinach Matcha Smoothie</a></li>
+            </ul>
+        </div>
+    </section>
 
-<h2>Deserts</h2>
-    <a href="./matcha-cake">Matcha Cake</a><br>
+<!------------------------------ Box 3 ------------------------------>
+    <section id="lunchSection" style="display: none;">
+        <div class="content-title">
+            <h2>Lunch</h2>
+        </div>
+
+        <div class="content-box">
+            <ul>
+                <li><a href="./green-goddess-salad">Green Goddess Salad</a></li>
+                <li><a href="./black-bean-sweet-potato">Black Bean Stuffed Sweet Potato</a></li>
+            </ul>
+        </div>
+    </section>
+
+<!------------------------------ Box 4 ------------------------------>
+    <section id="dinnerSection" style="display: none;">
+        <div class="content-title">
+            <h2>Dinner</h2>
+        </div>
+
+        <div class="content-box">
+            <ul>
+                <li><a href="./black-bean-sweet-potato">Black Bean Stuffed Sweet Potato</a></li>
+                <li><a href="./tofu-nuggets">Tofu Nuggets</a></li>
+                <li><a href="./sausage-cabbage-soup">Sausage & Cabbage Soup</a></li>
+                <li><a href="./black-bean-corn-quesadilla">Bean & Corn Quesadilla</a></li>
+            </ul>
+        </div>
+    </section>
+
+<!------------------------------ Box 4 ------------------------------>
+    <section id="dessertSection" style="display: none;">
+        <div class="content-title">
+            <h2>Dessert</h2>
+        </div>
+
+        <div class="content-box">
+            <ul>
+                <li><a href="./matcha-cake">Matcha Cake</a></li>
+                <li><a href="./banana-spinach-matcha-smoothie">Banana Spinach Matcha Smoothie</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<!------------------------------ Navigation ------------------------------>
+<aside>
+    <div id="navbar"></div>
+    <script src="../assets/root/navbar.js"></script>
+</aside>
+
+                </div>
+
+<!------------------------------ Footer ------------------------------>
+<footer>
+    <p>
+        Let your love be the thing that defines you
+        <a href="https://sensesfail.bandcamp.com/track/if-there-is-light-it-will-find-you" rel="noopener" target="_blank">♫</a>
+    </p>
+</footer>
+
+    </div>
+
+<!------------------------------ End ------------------------------>
+<script>
+function showSection(sectionId) {
+  // Hide all sections
+  var sections = document.getElementsByTagName("section");
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].style.display = "none";
+  }
+  
+  // Show the selected section
+  var selectedSection = document.getElementById(sectionId + "Section");
+  if (selectedSection) {
+    selectedSection.style.display = "block";
+  }
+}
+
+function showAllSections() {
+  // Show all sections
+  var sections = document.getElementsByTagName("section");
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].style.display = "block";
+  }
+}
+
+</script>
 </body>
 </html>
