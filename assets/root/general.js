@@ -75,4 +75,3 @@ document.addEventListener('keydown', e => {
     lightbox2.classList.remove('active');
   }
 });
-
