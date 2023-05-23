@@ -100,12 +100,27 @@
         </a>
 
         <a href="https://cthulhu-macula.neocities.org/" rel="noopener" target="_blank">
-            <img src="./assets/root/cthulhu-macula.png" alt="">
+            <img style="max-width: 88px; height: 31px;" src="https://cthulhu-macula.neocities.org/img/buttons/cthulhu_macula.gif" alt="">
         </a>
 
         <a href="https://emmixis.net/" rel="noopener" target="_blank">
             <img src="https://emmixis.net/sitebutton.gif" alt="">
         </a>
+    </div>
+
+<!------------------------------ Add Void ------------------------------>
+    <div class="content-title">
+        <h2>Let's be friends!</h2>
+    </div>
+
+    <div class="content-box">
+        <p>
+            If you add me to your site, find a way to contact me and let me know!
+            <button id="copy-button">Copy Code</button>
+        </p>
+        <textarea style="background-color: rgba(255, 192, 203, 0.356); color: white;" id="code-area" rows="3" cols="88">
+<a href="https://www.sapphic.dog/assets/root/void-webring.gif"></a> <img src="https://www.sapphic.dog/assets/root/void-webring.gif" alt="A webring that links to Void's website.">
+        </textarea><br>
     </div>
 </main>
 
@@ -114,6 +129,7 @@
     <div id="navbar"></div>
     <script src="./assets/root/navbar.js"></script>
 </aside>
+
             </div>
 
 <!------------------------------ Footer ------------------------------>
@@ -124,7 +140,23 @@
     </p>
 </footer>
 
+    </div>
+
 <!------------------------------ End ------------------------------>
-        </div>
-    </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var copyButton = document.getElementById("copy-button");
+  var codeArea = document.getElementById("code-area");
+
+  copyButton.addEventListener("click", function() {
+    codeArea.select();
+    document.execCommand("copy");
+    copyButton.innerText = "Copied!";
+    setTimeout(function() {
+      copyButton.innerText = "Copy Code";
+    }, 2000);
+  });
+});
+</script>
+</body>
 </html>
