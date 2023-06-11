@@ -46,6 +46,12 @@ main {
  /* Limits main boxes to 75% width */
 }
 
+td, th {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+}
+
 .content-title {
   background-color: #161b22;
  /* Applies a colour to background of box. */
@@ -145,12 +151,6 @@ footer p {
   height: 200px;
   margin: 10px;
   cursor: pointer;
-}
-
-td, th {
-  border-style: solid;
-  border-width: 1px;
-  padding: 5px;
 }
 
 .lightbox {
