@@ -147,6 +147,12 @@ footer p {
   cursor: pointer;
 }
 
+td, th {
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+}
+
 .lightbox {
   position: fixed;
   top: 0;
