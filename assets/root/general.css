@@ -23,6 +23,7 @@ a:hover {
 body {
   background-color: black;
  /* Applies a colour to background. */
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 .flex {

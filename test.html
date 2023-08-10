@@ -1,143 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+<!------------------------------ Header ------------------------------>
 <head>
+    <link rel="browser tab icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="main stylesheet" href="./assets/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retro Website</title>
+    <meta name="author" content="Voidgazer">
+    <meta name="keywords" content="video game review, music review, tv show review, movie review, anime review, completionist">
+    <meta name="viewport" content="width=device-width, initial-scale=0.38">
+    <title>Into The Void</title>
+    <meta name="description" content="Social media companies have isolated people onto their websites. This personal blog with my thoughts is an attempt to free myself from their grasp.">
+
+    <meta property="og:title" content="Into The Void">
+    <meta name="og:description" content="Social media companies have isolated people onto their websites. This personal blog with my thoughts is an attempt to free myself from their grasp.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.sapphic.dog/assets/favicon.png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
 </head>
-<style>
-/* ------------------- START CSS for the entire page ------------------- */
-body {
-    font-family: 'Tahoma', sans-serif; /* Sets the default font of the page */
-    background-color: #000000; /* Sets the background color of the page */
-    margin: 0; /* Removes default spacing around the entire page */
-    padding: 0; /* Removes default padding from the page */
-    color: #ffffff; /* Default text color */
-}
 
-p {
-    margin: 0; /* Removes default spacing around paragraphs */
-    padding: 0; /* Removes default padding from paragraphs */
-}
-
-a {
-    color: #f5c211; /* Color for unvisited links */
-    text-decoration: none; /* Removes the underline from links */
-}
-
-a:hover {
-    color: #0000ff; /* Color for links when mouse hovers over them */
-}
-/* ------------------- END CSS for the entire page ------------------- */
-
-/* ------------------- START CSS for the container that keeps the page together ------------------- */
-.container {
-    display: flex; /* Uses the flexbox layout for child elements */
-    flex-direction: column; /* Stacks child elements vertically */
-    width: 1000px; /* Sets a fixed width for the container */
-    margin: 30px auto; /* Centers the container horizontally with vertical spacing */
-    align-items: center; /* Centers child elements horizontally within the container */
-}
-
-.banner {
-    width: 100%; /* Banner spans the full width of its container */
-    height: 128px; /* Sets a fixed height for the banner */
-    background: url('https://www.sapphic.dog/assets/root/void-banner.png') no-repeat center; /* Sets the background image, centered and non-repeating */
-    margin-bottom: 10px; /* Adds spacing below the banner */
-}
-
-.main-content {
-    display: flex; /* Uses the flexbox layout for child elements */
-    width: 100%; /* Main content spans the full width of its container */
-    align-items: stretch; /* Child elements stretch to fill the available vertical space */
-}
-/* ------------------- END CSS for the container that keeps the page together ------------------- */
-
-/* ------------------- START CSS for styling relating to the content boxes ------------------- */
-.content-area {
-    flex: 3;  /* Takes up 3 parts of the available space in the flex container */
-}
-
-.content-title {
-    background-color: #161b22; /* Sets the background color for the content title area */
-}
-
-.content-title h2 {
-    margin: 0 0 0 50px; /* Spacing for the content title */
-    padding: 5px; /* Adds space around the title */
-    font-size: 20px; /* Size of the title text */
-    font-weight: bold; /* Makes the title text bold */
-}
-
-.content {
-    padding: 10px; /* Space inside the content area */
-    background-color: #750000; /* Background color for the content area */
-    margin-bottom: 10px; /* Adds spacing below the content */
-}
-
-.content p, h3 {
-    margin: 5px;
-}
-
-.content h3 {
-    margin: 5px;
-}
-/* ------------------- END CSS for styling relating to the content boxes ------------------- */
-
-/* ------------------- START CSS for styling relating to the navigation box ------------------- */
-.navbar-container {
-    display: flex; /* Uses the flexbox layout for child elements */
-    flex-direction: column; /* Stacks child elements vertically */
-    padding: 0; /* No space inside the navbar container */
-    margin: 0 0 10px 10px; /* Space around the navbar container */
-}
-
-.navbar-title {
-    background-color: #161b22; /* Background color for the navbar title area */
-}
-
-.navbar-title h2 {
-    margin: 0 0 0 25px; /* Spacing for the navbar title */
-    padding: 5px; /* Space around the navbar title text */
-    font-size: 20px; /* Size of the navbar title text */
-    font-weight: bold; /* Makes the navbar title text bold */
-}
-
-.navbar {
-    flex-grow: 1; /* Makes the navbar fill the available vertical space */
-    background-color: #750000; /* Background color of the navbar */
-    padding: 10px; /* Space inside the navbar */
-    width: 200px; /* Width of the navbar */
-    margin: 0; /* No space around the navbar */
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul ul {
-    margin-left: 25px;
-}
-
-.navbar li {
-    display: flex; /* Uses flexbox layout for items in the list */
-    align-items: center; /* Vertically centers items within each list item */
-}
-
-.navbar li span.heart-icon {
-    margin-right: 10px; /* Adds spacing to the right of the heart icon */
-    color: black; /* Color of the heart icon */
-}
-/* ------------------- START CSS for styling relating to the navigation box ------------------- */
-
-.footer {
-    width: 100%; /* Footer spans the full width of its container */
-    height: 20px; /* Fixed height for the footer */
-    background-color: #750000; /* Background color of the footer */
-    text-align: center; /* Centers text horizontally in the footer */
-}
-</style>
 <!------------------------------ Begin ------------------------------>
 <body>
     <div class="container">
@@ -168,19 +50,7 @@ a:hover {
         
     <div class="content">
         <h3>
-            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
-        </h3>
-        <p>
-            Void talks about the past, present, and future of the website, and asking what creativity is.
-        </p>
-        <h3>
-            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
-        </h3>
-        <p>
-            Void talks about the past, present, and future of the website, and asking what creativity is.
-        </p>
-        <h3>
-            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
+            <a href="./blog/2023-04-06">My first blog post on the new site!</a> - Posted 6 April 2023
         </h3>
         <p>
             Void talks about the past, present, and future of the website, and asking what creativity is.
@@ -194,19 +64,19 @@ a:hover {
         
     <div class="content">
         <h3>
-            <a href="#">Tony Hawk's Pro Skater</a> - xxxx
+            <a href="./g/ps1/Tony_Hawks_Pro_Skater">Tony Hawk's Pro Skater</a> - xxxx
         </h3>
         <p>
             Text will go here.
         </p>
         <h3>
-            <a href="#">Clickpocalypse 2</a> - Completed on 22 June 2023
+            <a href="./g/browser/Clickpocalypse_2">Clickpocalypse 2</a> - Completed on 22 June 2023
         </h3>
         <p>
             I've completed this game on mobile before, but I came around a second time for this review.
         </p>
         <h3>
-            <a href="#">Call of Duty: Black Ops</a> - Beaten on 27 March 2023
+            <a href="./g/steam/Call_of_Duty-Black_Ops">Call of Duty: Black Ops</a> - Beaten on 27 March 2023
         </h3>
         <p>
             I decided to play this on a whim one day. 
@@ -221,11 +91,11 @@ a:hover {
         
     <div class="content">
         <a href="https://chloes-secret-hideout.neocities.org/" rel="noopener" target="_blank">
-            <img src="./assets/root/chloes-secret-hideout.gif" alt="">
+            <img src="./assets/root/ring-chloes-secret-hideout.gif" alt="">
         </a>
 
         <a href="https://steelviper77.neocities.org/" rel="noopener" target="_blank">
-            <img src="./assets/root/steelviper77.gif" alt="A button for Steelviper77. Click to view her site, and everything Oliver.">
+            <img src="./assets/root/ring-steelviper77.gif" alt="A button for Steelviper77. Click to view her site, and everything Oliver.">
         </a>
 
         <a href="https://cthulhu-macula.neocities.org/" rel="noopener" target="_blank">
@@ -249,7 +119,7 @@ a:hover {
         </p>
 
         <textarea style="background-color: rgba(255, 192, 203, 0.356); color: white;" id="code-area" rows="3" cols="88">
-<a href="https://www.sapphic.dog/assets/root/void-webring.gif"></a> <img src="https://www.sapphic.dog/assets/root/void-webring.gif" alt="A webring that links to Void's website.">
+<a href="https://www.sapphic.dog/assets/root/ring-void.gif"></a> <img src="https://www.sapphic.dog/assets/root/ring-void.gif" alt="A webring that links to Void's website.">
         </textarea><br>
     </div>
 </div>
@@ -262,7 +132,7 @@ a:hover {
 
     <div class="navbar">
         <div id="navbar"></div>
-        <script src="./assets/root/navbar.js"></script>
+        <script src="./assets/navbar.js"></script>
     </div>
 </div>
         
@@ -276,6 +146,8 @@ a:hover {
         </p>
     </div>
 </div>
+
+<!------------------------------ Code for "Copy Code" button ------------------------------>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
   var copyButton = document.getElementById("copy-button");
