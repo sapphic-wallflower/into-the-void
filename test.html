@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Website</title>
+</head>
+<style>
+/* ------------------- START CSS for the entire page ------------------- */
+body {
+    font-family: 'Tahoma', sans-serif; /* Sets the default font of the page */
+    background-color: #000000; /* Sets the background color of the page */
+    margin: 0; /* Removes default spacing around the entire page */
+    padding: 0; /* Removes default padding from the page */
+    color: #ffffff; /* Default text color */
+}
+
+p {
+    margin: 0; /* Removes default spacing around paragraphs */
+    padding: 0; /* Removes default padding from paragraphs */
+}
+
+a {
+    color: #f5c211; /* Color for unvisited links */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+a:hover {
+    color: #0000ff; /* Color for links when mouse hovers over them */
+}
+/* ------------------- END CSS for the entire page ------------------- */
+
+/* ------------------- START CSS for the container that keeps the page together ------------------- */
+.container {
+    display: flex; /* Uses the flexbox layout for child elements */
+    flex-direction: column; /* Stacks child elements vertically */
+    width: 1000px; /* Sets a fixed width for the container */
+    margin: 30px auto; /* Centers the container horizontally with vertical spacing */
+    align-items: center; /* Centers child elements horizontally within the container */
+}
+
+.banner {
+    width: 100%; /* Banner spans the full width of its container */
+    height: 128px; /* Sets a fixed height for the banner */
+    background: url('https://www.sapphic.dog/assets/root/void-banner.png') no-repeat center; /* Sets the background image, centered and non-repeating */
+    margin-bottom: 10px; /* Adds spacing below the banner */
+}
+
+.main-content {
+    display: flex; /* Uses the flexbox layout for child elements */
+    width: 100%; /* Main content spans the full width of its container */
+    align-items: stretch; /* Child elements stretch to fill the available vertical space */
+}
+/* ------------------- END CSS for the container that keeps the page together ------------------- */
+
+/* ------------------- START CSS for styling relating to the content boxes ------------------- */
+.content-area {
+    flex: 3;  /* Takes up 3 parts of the available space in the flex container */
+}
+
+.content-title {
+    background-color: #161b22; /* Sets the background color for the content title area */
+}
+
+.content-title h2 {
+    margin: 0 0 0 50px; /* Spacing for the content title */
+    padding: 5px; /* Adds space around the title */
+    font-size: 20px; /* Size of the title text */
+    font-weight: bold; /* Makes the title text bold */
+}
+
+.content {
+    padding: 10px; /* Space inside the content area */
+    background-color: #750000; /* Background color for the content area */
+    margin-bottom: 10px; /* Adds spacing below the content */
+}
+
+.content p, h3 {
+    margin: 5px;
+}
+
+.content h3 {
+    margin: 5px;
+}
+/* ------------------- END CSS for styling relating to the content boxes ------------------- */
+
+/* ------------------- START CSS for styling relating to the navigation box ------------------- */
+.navbar-container {
+    display: flex; /* Uses the flexbox layout for child elements */
+    flex-direction: column; /* Stacks child elements vertically */
+    padding: 0; /* No space inside the navbar container */
+    margin: 0 0 10px 10px; /* Space around the navbar container */
+}
+
+.navbar-title {
+    background-color: #161b22; /* Background color for the navbar title area */
+}
+
+.navbar-title h2 {
+    margin: 0 0 0 25px; /* Spacing for the navbar title */
+    padding: 5px; /* Space around the navbar title text */
+    font-size: 20px; /* Size of the navbar title text */
+    font-weight: bold; /* Makes the navbar title text bold */
+}
+
+.navbar {
+    flex-grow: 1; /* Makes the navbar fill the available vertical space */
+    background-color: #750000; /* Background color of the navbar */
+    padding: 10px; /* Space inside the navbar */
+    width: 200px; /* Width of the navbar */
+    margin: 0; /* No space around the navbar */
+}
+
+.navbar li {
+    display: flex; /* Uses flexbox layout for items in the list */
+    align-items: center; /* Vertically centers items within each list item */
+}
+
+.navbar li span.heart-icon {
+    margin-right: 10px; /* Adds spacing to the right of the heart icon */
+    color: black; /* Color of the heart icon */
+}
+
+.navbar li ul {
+    padding-left: 20px; /* Indentation for nested lists */
+    list-style-type: none; /* Removes bullet points */
+    margin-top: 5px; /* Spacing above nested lists */
+}
+/* ------------------- START CSS for styling relating to the navigation box ------------------- */
+
+.footer {
+    width: 100%; /* Footer spans the full width of its container */
+    height: 20px; /* Fixed height for the footer */
+    background-color: #750000; /* Background color of the footer */
+    text-align: center; /* Centers text horizontally in the footer */
+}
+</style>
+<!------------------------------ Begin ------------------------------>
+<body>
+    <div class="container">
+        <div class="banner"></div>
+            <div class="main-content">
+
+<!------------------------------ Welcome Box ------------------------------>
+<div class="content-area">
+    <div class="content-title">
+        <h2>Welcome To The Void!</h2>
+    </div>
+        
+    <div class="content">
+        <p>
+            Social media sites have attempted to isolate us on their platforms, creating profit through hostile engagement.
+            We don't need to live by their rules.
+        </p>
+        <p>
+            This site originally existed to suppliment my video game backlog, but has evolved into an all-purpose blog. 
+            Check out all I have to offer using the navigation bar. ^o^
+        </p>
+    </div>
+
+<!------------------------------ Recent Blog Posts ------------------------------>
+    <div class="content-title">
+        <h2>Recent Blog Posts</h2>
+    </div>
+        
+    <div class="content">
+        <h3>
+            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
+        </h3>
+        <p>
+            Void talks about the past, present, and future of the website, and asking what creativity is.
+        </p>
+        <h3>
+            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
+        </h3>
+        <p>
+            Void talks about the past, present, and future of the website, and asking what creativity is.
+        </p>
+        <h3>
+            <a href="#">My first blog post on the new site!</a> - Posted 6 April 2023
+        </h3>
+        <p>
+            Void talks about the past, present, and future of the website, and asking what creativity is.
+        </p>
+    </div>
+
+<!------------------------------ Recent Game Reviews ------------------------------>
+    <div class="content-title">
+        <h2>Recent Game Review</h2>
+    </div>
+        
+    <div class="content">
+        <h3>
+            <a href="#">Tony Hawk's Pro Skater</a> - xxxx
+        </h3>
+        <p>
+            Text will go here.
+        </p>
+        <h3>
+            <a href="#">Clickpocalypse 2</a> - Completed on 22 June 2023
+        </h3>
+        <p>
+            I've completed this game on mobile before, but I came around a second time for this review.
+        </p>
+        <h3>
+            <a href="#">Call of Duty: Black Ops</a> - Beaten on 27 March 2023
+        </h3>
+        <p>
+            I decided to play this on a whim one day. 
+            I wish I didn't.
+        </p>
+    </div>
+
+<!------------------------------ Friends of the Void ------------------------------>
+    <div class="content-title">
+        <h2>Friends of the Void</h2>
+    </div>
+        
+    <div class="content">
+        <a href="https://chloes-secret-hideout.neocities.org/" rel="noopener" target="_blank">
+            <img src="./assets/root/chloes-secret-hideout.gif" alt="">
+        </a>
+
+        <a href="https://steelviper77.neocities.org/" rel="noopener" target="_blank">
+            <img src="./assets/root/steelviper77.gif" alt="A button for Steelviper77. Click to view her site, and everything Oliver.">
+        </a>
+
+        <a href="https://cthulhu-macula.neocities.org/" rel="noopener" target="_blank">
+            <img style="max-width: 88px; height: 31px;" src="https://cthulhu-macula.neocities.org/img/buttons/cthulhu_macula.gif" alt="">
+        </a>
+
+        <a href="https://emmixis.net/" rel="noopener" target="_blank">
+            <img src="https://emmixis.net/sitebutton.gif" alt="">
+        </a>
+    </div>
+
+<!------------------------------ Let's Be Friends! ------------------------------>
+    <div class="content-title">
+        <h2>Let's Be Friends!</h2>
+    </div>
+
+    <div class="content">
+        <p>
+            If you add me to your site, find a way to contact me and let me know!
+            <button id="copy-button">Copy Code</button>
+        </p>
+
+        <textarea style="background-color: rgba(255, 192, 203, 0.356); color: white;" id="code-area" rows="3" cols="88">
+<a href="https://www.sapphic.dog/assets/root/void-webring.gif"></a> <img src="https://www.sapphic.dog/assets/root/void-webring.gif" alt="A webring that links to Void's website.">
+        </textarea><br>
+    </div>
+</div>
+
+<!------------------------------ Navigation Box ------------------------------>
+<div class="navbar-container">
+    <div id="navbar"></div>
+    <script src="./assets/root/navbar.js"></script>
+</div>
+        
+            </div>
+
+<!------------------------------ Footer ------------------------------>
+    <div class="footer">
+        <p>
+            Let your love be the thing that defines you
+            <a href="https://sensesfail.bandcamp.com/track/if-there-is-light-it-will-find-you" rel="noopener" target="_blank">♫</a>
+        </p>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var copyButton = document.getElementById("copy-button");
+  var codeArea = document.getElementById("code-area");
+
+  copyButton.addEventListener("click", function() {
+    codeArea.select();
+    document.execCommand("copy");
+    copyButton.innerText = "Copied!";
+    setTimeout(function() {
+      copyButton.innerText = "Copy Code";
+    }, 2000);
+  });
+});
+</script>
+</body>
+</html>
