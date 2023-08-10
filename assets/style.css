@@ -34,7 +34,7 @@ a:hover {
 .banner {
     width: 100%; /* Banner spans the full width of its container */
     height: 128px; /* Sets a fixed height for the banner */
-    background: url('https://www.sapphic.dog/assets/root/void-banner.png') no-repeat center; /* Sets the background image, centered and non-repeating */
+    background: url('https://www.sapphic.dog/assets/void-banner.png') no-repeat center; /* Sets the background image, centered and non-repeating */
     margin-bottom: 10px; /* Adds spacing below the banner */
 }
 
