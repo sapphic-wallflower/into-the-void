@@ -1,59 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="browser tab icon" type="image/x-icon" href="./assets/root/favicon.ico">
-     <meta charset="UTF-8">
-     <meta name="author" content="Voidgazer">
-     <meta name="description" content="You shouldn't be here.">
-     <meta name="keywords" content="404, lost, broken link">
-     <meta name="viewport" content="width=device-width, initial-scale=0.38">
-     <title>Into The Void | Too Deep</title>
-</head>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: black;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
             color: white;
-		}
-		.container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-			border: 5px solid red;
-		}
-		.image-container {
-			width: 250px;
-			height: 250px;
-			margin-bottom: 20px;
-		}
-		.image-container img {
-			display: block;
-			width: 100%;
-			height: 100%;
-		}
-		h1 {
-			font-size: 3rem;
-			margin: 0;
-		}
-	</style>
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            border: 5px solid red;
+        }
+        img {
+            margin-bottom: 20px;
+            cursor: pointer;
+            max-width: 250px;
+            max-height: 250px;
+        }
+    </style>
+    <title>404 Not Found</title>
 </head>
 <body>
-	<div class="container">
-		<div class="image-container">
-			<a href="https://www.sapphic.dog"><img src="https://files.catbox.moe/g4e6f6.svg" alt="Rarity's cutie mark"></a>
-		</div>
-		<h1>You fell in to deep.</h1>
-		<h2>You're lucky the element of generosity is here to lift you out.</h3>
-        <h3>Click Rarity's Cutie Mark to return home</h3>
-		<p>
-            If you think this is an error, 
-            <a href="https://github.com/sapphic-wallflower/into-the-void/issues" target="_blank" rel="noopener noreferrer">create an issue on GitHub</a>, 
-            or 
-            <a href="mailto:jamiedump@fastmail.com">email Void.</a>
-        </p>
-	</div>
+    <img id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
+    <h1>You fell in too deep.</h1>
+    <h2 id="rescue-text">Luckily, [blank] was here to save you.</h2>
+    <h3 id="click-text">Click on [blank]'s Cutie Mark to return home.</h3>
+	<p>
+		If you think this is an error, 
+		<a href="https://github.com/sapphic-wallflower/into-the-void/issues" target="_blank" rel="noopener noreferrer">create an issue on GitHub</a>, 
+		or 
+		<a href="mailto:jamiedump@fastmail.com">email Void.</a>
+	</p>
+
+    <script>
+		const characters = [
+			{
+				name: 'Apple Bloom',
+				imgSrc: 'https://files.catbox.moe/jc5t6y.png'
+			},
+			{
+				name: 'Applejack',
+				imgSrc: 'https://files.catbox.moe/k8zdb6.png'
+			},
+			{
+				name: 'Derpy Hooves',
+				imgSrc: 'https://files.catbox.moe/5bq104.png'
+			},
+			{
+				name: 'Fluttershy',
+				imgSrc: 'https://files.catbox.moe/fdmnsz.png'
+			},
+			{
+				name: 'Pinkie Pie',
+				imgSrc: 'https://files.catbox.moe/xzbx52.png'
+			},
+			{
+				name: 'Princess Cadence',
+				imgSrc: 'https://files.catbox.moe/ts7wxu.png'
+			},
+			{
+				name: 'Princess Celestia',
+				imgSrc: 'https://files.catbox.moe/qpr43f.png'
+			},
+			{
+				name: 'Princess Luna',
+				imgSrc: 'https://files.catbox.moe/062ql7.png'
+			},
+			{
+				name: 'Rainbow Dash',
+				imgSrc: 'https://files.catbox.moe/7jp2tp.png'
+			},
+			{
+				name: 'Rarity',
+				imgSrc: 'https://files.catbox.moe/cggkru.png'
+			},
+			{
+				name: 'Scootaloo',
+				imgSrc: 'https://files.catbox.moe/hxvmuv.png'
+			},
+			{
+				name: 'Shining Armour',
+				imgSrc: 'https://files.catbox.moe/iwzsua.png'
+			},
+			{
+				name: 'Starlight Glimmer',
+				imgSrc: 'https://files.catbox.moe/57rmbh.png'
+			},
+			{
+				name: 'Sunset Shimmer',
+				imgSrc: 'https://files.catbox.moe/jevu5f.png'
+			},
+			{
+				name: 'Sweetie Belle',
+				imgSrc: 'https://files.catbox.moe/5l2coh.png'
+			},
+			{
+				name: 'Trixie Lulamoon',
+				imgSrc: 'https://files.catbox.moe/iqdj50.png'
+			},
+			{
+				name: 'Twilight Sparkle',
+				imgSrc: 'https://files.catbox.moe/1irvqs.png'
+			},
+		];
+
+
+        const randomCharacter = characters[Math.floor(Math.random() * characters.length)];
+
+        document.getElementById('character-image').src = randomCharacter.imgSrc;
+        document.getElementById('rescue-text').textContent = `Luckily, ${randomCharacter.name} was here to save you.`;
+        document.getElementById('click-text').textContent = `Click on ${randomCharacter.name}'s Cutie Mark to return home`;
+
+        function goHome() {
+            // Redirect to the homepage or another page
+            window.location.href = "https://www.sapphic.dog";
+        }
+    </script>
 </body>
 </html>
