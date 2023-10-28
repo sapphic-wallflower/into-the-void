@@ -5,6 +5,7 @@ body {
     margin: 0; /* Removes default spacing around the entire page */
     padding: 0; /* Removes default padding from the page */
     color: #ffffff; /* Default text color */
+    line-height: 1.5; /* Spaces text between lines in sentences */
 }
 
 p {
